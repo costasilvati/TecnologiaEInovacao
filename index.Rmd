@@ -1,0 +1,55 @@
+--- 
+title: "Tecnologia e Inovação"
+author: "Juliana Costa-Silva"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Compilado de conteúdos utilizados na disciplina de Tecnologia e Inovação.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Sobre {-}
+
+Este _e-book_ é uma versão digital de conetúdos compilados para a disciplina de Tecnologia e Inovação. 
+
+## A autora {-}
+
+Prof. Juliana Costa Silva, graduada am Análise e Desenvolvimento de Sistemas pela [Universidade Tecnológica Federal do Paraná - Campus Cornélio Procópio](https://www.utfpr.edu.br/campus/cornelioprocopio) e Mestre em Bioinformática pelo [Programa de Pós Graduação em Bioinformática (PPGBioinfo)](https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgbioinfo-cp) mesma instituição. Doutora em Ciência da Computação pelo [Programa de Pós Graduação em Informática (PPGInf)](https://www.prppg.ufpr.br/site/ppginf/pb/) da [Universidade Federal do Paraná](https://ufpr.br).
+<!--
+## Render book
+
+You can render the HTML version of this example book without changing anything:
+
+1. Find the **Build** pane in the RStudio IDE, and
+
+1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
+
+Or build the book from the R console:
+
+```{r, eval=FALSE}
+bookdown::render_book()
+```
+
+To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+
+## Preview book
+
+As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
+
+```{r eval=FALSE}
+bookdown::serve_book()
+```
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+-->

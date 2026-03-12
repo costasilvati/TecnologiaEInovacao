@@ -1,0 +1,7 @@
+# Introdução {-}
+
+Cada capítulo representa uma aula, o tema e as referêcias discutidas nela. Este material serve de apoio as discussões em aula e deve ser associado a estudo dos livros referência da disciplina e leituras indicadas.
+
+## As seções {-}
+
+Toda aula terá ao menso uma atividade. Este deve ser desenvolvida e entregue conforme orientação da professora.
