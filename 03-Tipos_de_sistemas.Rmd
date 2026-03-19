@@ -194,13 +194,18 @@ Os sistemas modernos são integrados :contentReference[oaicite:6]{index="6"}.
 
 ### Tipos principais
 
--   ERP → integra processos internos\
--   CRM → gestão de clientes\
--   SCM → cadeia de suprimentos\
--   SGC → gestão do conhecimento
+-   ERP (Sistemas integrados de gestão, do inglês _Enterprise Resource Planning_) → integra processos internos\
+-   CRM → (Sistema de gerenciamento de clientes, do inglês _Costumer Relationship Management_) gestão de clientes\
+-   SCM → (Gerenciamento da cadeia de suprimentos, do inglês _Supply Chain Management_) cadeia de suprimentos\
+-   SGC → ( ) gestão do conhecimento
 
 > 💡 **Conceito-chave**\
 > Integração = dados fluindo entre setores sem redundância.
+
+
+```{r fig-scm, echo=FALSE, fig.cap="Esquema com principais componentes da gestão da cadeia de suprimentos. Fonte: sap.com, 2026.", out.width="80%"}
+knitr::include_graphics("fig/aula3/what-is-supply-chain-management-graphic.svg")
+```
 
 > 🧠 **Exemplo aplicado**\
 > Um pedido no sistema: - Atualiza estoque (ERP); - Registra cliente (CRM); - Aciona logística (SCM).

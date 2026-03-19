@@ -9,6 +9,7 @@ fig:fig-skills
 fig:fig-history
 fig:fig-dados
 fig:fig-organizacao-SI
+fig:fig-scm
 revolução-tecnológica-e-impactos-no-trabalho
 objetivo-da-aula
 objetivos-específicos
@@ -55,4 +56,6 @@ tipos-principais
 relação-entre-os-sistemas
 sistemas-de-informação-e-vantagem-competitiva
 atividade-proposta
+atividade-2
+questoes-para-discussão
 referências-1
