@@ -302,3 +302,94 @@ No contexto do secretariado executivo, o gerenciamento de projetos está diretam
 As ferramentas digitais não apenas auxiliam na execução das atividades, mas transformam o papel do profissional, que passa a atuar de forma mais **analítica, integrada e estratégica**.
 
 Dominar ferramentas como Google Workspace, Microsoft 365 e Trello é, portanto, essencial para atender às demandas do mercado atual.
+
+
+## Atividade — Gestão do TCC com Ferramentas Digitais
+
+### Objetivo
+
+Aplicar conceitos de gestão de projetos no contexto do secretariado executivo, utilizando ferramentas digitais para organizar, acompanhar e controlar o desenvolvimento do Trabalho de Conclusão de Curso (TCC).
+
+---
+
+### Descrição da Atividade
+
+Cada estudante deverá criar um **projeto digital para gerenciar o seu TCC**, utilizando uma das ferramentas apresentadas em aula, como:
+
+* Trello
+* Asana
+* Google Workspace (ex: planilhas + agenda)
+* Microsoft 365 (ex: Planner, Excel, Outlook)
+
+---
+
+### Etapas da Atividade
+
+1. **Escolha da ferramenta**
+   Selecione uma das ferramentas digitais apresentadas em aula para gerenciar seu projeto.
+
+2. **Criação do projeto**
+   Crie um projeto intitulado:
+   **“Gestão do TCC – [Seu Nome]”**
+
+3. **Estruturação inicial**
+   Organize o projeto com base em etapas típicas do TCC, como:
+
+   * Definição do tema
+   * Revisão bibliográfica
+   * Metodologia
+   * Desenvolvimento
+   * Escrita
+   * Revisão
+   * Entrega final
+
+4. **Registro da reunião com o orientador**
+   Após a reunião com seu orientador, registre no sistema:
+
+   * Todas as tarefas definidas
+   * Orientações recebidas
+   * Prazos estabelecidos
+
+5. **Detalhamento das tarefas**
+   Para cada tarefa, inclua:
+
+   * Descrição clara
+   * Responsável (você)
+   * Prazo
+   * Status (ex: a fazer, em andamento, concluído)
+
+6. **Acompanhamento do andamento**
+   Atualize o projeto conforme o progresso das atividades, refletindo o andamento real do TCC.
+
+7. **Organização das informações**
+   Sempre que possível, utilize:
+
+   * Anexos (documentos, PDFs, links)
+   * Comentários
+   * Checklists
+
+8. **Compartilhamento do projeto**
+   Configure o acesso ao projeto para visualização pelo professor.
+
+9. **Entrega da atividade**
+   Envie o **link de acesso ao projeto** até o final da aula.
+
+---
+
+<!-- ### Critérios de Avaliação -->
+
+<!-- * Organização e estrutura do projeto -->
+<!-- * Clareza na definição das tarefas -->
+<!-- * Coerência com as etapas do TCC -->
+<!-- * Uso adequado da ferramenta digital -->
+<!-- * Atualização do andamento das atividades -->
+<!-- * Qualidade das informações registradas -->
+
+<!-- --- -->
+
+### Observações
+
+* O projeto deve refletir uma situação real (seu próprio TCC).
+* Não serão aceitos projetos genéricos ou fictícios.
+* A atividade poderá ser utilizada como base para acompanhamento ao longo da disciplina.
+

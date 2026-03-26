@@ -91,3 +91,8 @@ exemplo-2-gestão-da-agenda-de-um-executivo
 exemplo-3-implantação-de-um-novo-processo-administrativo
 tendências-no-secretariado-executivo
 considerações-finais
+atividade-gestão-do-tcc-com-ferramentas-digitais
+objetivo
+descrição-da-atividade
+etapas-da-atividade
+observações
