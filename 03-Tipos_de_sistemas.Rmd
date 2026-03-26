@@ -197,7 +197,7 @@ Os sistemas modernos são integrados :contentReference[oaicite:6]{index="6"}.
 -   ERP (Sistemas integrados de gestão, do inglês _Enterprise Resource Planning_) → integra processos internos\
 -   CRM → (Sistema de gerenciamento de clientes, do inglês _Costumer Relationship Management_) gestão de clientes\
 -   SCM → (Gerenciamento da cadeia de suprimentos, do inglês _Supply Chain Management_) cadeia de suprimentos\
--   SGC → ( ) gestão do conhecimento
+-   SGC →  gestão do conhecimento
 
 > 💡 **Conceito-chave**\
 > Integração = dados fluindo entre setores sem redundância.
