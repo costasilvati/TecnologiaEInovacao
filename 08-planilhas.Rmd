@@ -252,7 +252,7 @@ Esse fluxo é a base para ferramentas mais avançadas como o Microsoft Power BI.
 
 ---
 
-## Atividade prática
+## Atividade prática 1
 
 ### Contexto
 
@@ -321,6 +321,17 @@ Responder:
 * Quem gerou mais despesas?
 * Existe algum padrão relevante?
 
+
+
+---
+## Atividade prática 2 [Entregar]
+
+ - Desenvolver uma planilha de gerenciamento de gastos pessoais (orçamento);
+ - A planilha deve conter local para valores de entradas (salário, recebimentos) e saídas (contas a pagar);
+ - Cada cartão (forma de gasto) de crédito ou débito deve ter seus gastos registrados de modo que seja possível visualizar qual o valor da sua fatura. 
+ - Cada gasto/conta deve ser classificada (Ex.: saúde, transporte, alimentação);
+ - Deve ser possível ver um gráfico de gastos por categoria;
+
 ---
 
 ### Entrega
@@ -332,7 +343,6 @@ Arquivo Excel contendo:
 * Tabela dinâmica
 * Gráfico
 * Respostas das análises
-
 ---
 
 ## Conclusão
