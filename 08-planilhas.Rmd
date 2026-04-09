@@ -1,0 +1,340 @@
+# Planilhas Inteligentes na Rotina do Secretariado Executivo
+
+## Objetivo da aula
+
+Desenvolver competências no uso do [@w3schools_excel] para organização, análise e visualização de dados no contexto do secretariado executivo, preparando a base conceitual e prática para uso futuro [@excel_doc].
+
+---
+
+## O papel dos dados na rotina executiva
+
+O trabalho do secretariado executivo envolve cada vez mais a gestão de informações. Isso inclui organizar dados, gerar relatórios e apoiar a tomada de decisão.
+
+Dados, por si só, são apenas registros. O valor está na capacidade de transformá-los em informação útil. No Excel, isso ocorre por meio de:
+
+- Estruturação adequada dos dados  
+- Uso de fórmulas  
+- Aplicação de filtros  
+- Criação de tabelas dinâmicas  
+- Visualização com gráficos  
+
+Exemplo típico:
+Uma planilha com despesas só se torna útil quando permite responder perguntas como:
+- Qual categoria tem maior gasto?
+- Quem está gerando mais despesas?
+- Como os gastos evoluem ao longo do tempo?
+
+---
+
+## Organização de dados
+
+A base de qualquer análise é a qualidade dos dados. Segundo boas práticas amplamente adotadas (como no [@microsoft_learn_intro]), os dados devem estar organizados em formato tabular[@w3schools_data_analysis].
+
+Cada linha representa um registro e cada coluna representa um atributo.
+
+### Estrutura correta
+
+| Data | Categoria | Valor | Responsável |
+|------|----------|------|------------|
+
+### Boas práticas
+
+- Não utilizar células mescladas  
+- Não deixar linhas ou colunas em branco  
+- Utilizar cabeçalhos claros  
+- Manter consistência nos tipos de dados  
+
+### Como transformar em tabela
+
+1. Selecionar todos os dados  
+2. Pressionar Ctrl + T  
+3. Confirmar que a tabela possui cabeçalhos  
+
+Ao transformar em tabela, o Excel passa a reconhecer automaticamente a estrutura dos dados, facilitando o uso de fórmulas e análises.
+
+---
+
+## Uso de fórmulas
+
+As fórmulas permitem automatizar cálculos e análises.
+
+### Função de busca (PROCX)
+
+A função PROCX permite buscar informações em uma tabela.
+
+Sintaxe:
+
+```excel
+=PROCX(valor_procurado; matriz_procurada; matriz_retorno)
+```
+
+Exemplo:
+Buscar o telefone de um cliente com base no ID:
+
+```excel
+=PROCX(A2;TabelaClientes[ID];TabelaClientes[Telefone])
+```
+
+Aplicação prática:
+Automatizar a recuperação de dados de clientes, fornecedores ou compromissos.
+
+---
+
+### Função condicional (SE)
+
+Permite tomar decisões com base em condições.
+
+Sintaxe:
+
+```excel
+=SE(teste_lógico; valor_se_verdadeiro; valor_se_falso)
+```
+
+Exemplo simples:
+
+```excel
+=SE(B2>500;"Alto";"Baixo")
+```
+
+Exemplo mais completo:
+
+```excel
+=SE(B2>1000;"Alto";SE(B2>500;"Médio";"Baixo"))
+```
+
+Aplicação prática:
+Classificar despesas, priorizar tarefas ou identificar situações críticas.
+
+---
+
+## Análise de dados
+
+O Excel possui recursos simples e eficientes para análise.
+
+### Ordenação
+
+Permite organizar os dados em ordem crescente ou decrescente.
+
+Passos:
+
+1. Selecionar a tabela
+2. Acessar Dados → Classificar
+3. Escolher a coluna e o tipo de ordenação
+
+Aplicação:
+Identificar maiores gastos ou prioridades.
+
+---
+
+### Filtros
+
+Permitem visualizar apenas parte dos dados.
+
+Passos:
+
+1. Ativar filtros na tabela
+2. Selecionar os critérios desejados
+
+Exemplo:
+Exibir apenas despesas da categoria “Viagem”.
+
+---
+
+### Funções de agregação
+
+Soma:
+
+```excel
+=SOMA(B2:B10)
+```
+
+Média:
+
+```excel
+=MÉDIA(B2:B10)
+```
+
+Aplicação:
+Calcular total de despesas ou média de gastos.
+
+---
+
+## Tabelas dinâmicas
+
+As tabelas dinâmicas são utilizadas para resumir grandes volumes de dados.
+
+### Como criar
+
+1. Selecionar a tabela
+2. Inserir → Tabela Dinâmica
+3. Escolher nova planilha
+
+### Configuração básica
+
+* Linhas: Categoria
+* Valores: Soma de Valor
+* Filtros: Responsável
+
+### Aplicação prática
+
+* Total de despesas por categoria
+* Análise de gastos por responsável
+* Relatórios mensais
+
+A tabela dinâmica permite reorganizar os dados rapidamente sem alterar a base original.
+
+---
+
+## Visualização de dados
+
+Gráficos são fundamentais para comunicação de informações.
+
+### Como criar
+
+1. Selecionar os dados ou tabela dinâmica
+2. Inserir → Gráfico
+3. Escolher o tipo adequado
+
+### Tipos recomendados
+
+* Gráfico de colunas: comparação entre categorias
+* Gráfico de linhas: evolução ao longo do tempo
+
+### Boas práticas
+
+* Utilizar títulos claros
+* Evitar excesso de informações
+* Destacar os dados relevantes
+
+---
+
+## Validação e automação
+
+### Validação de dados
+
+Permite restringir entradas para evitar erros.
+
+Passos:
+
+1. Selecionar a célula
+2. Dados → Validação de Dados
+3. Escolher tipo “Lista”
+
+Exemplo:
+Campo Categoria com opções pré-definidas.
+
+---
+
+### Formatação condicional
+
+Destaca automaticamente valores com base em regras.
+
+Passos:
+
+1. Selecionar os dados
+2. Página Inicial → Formatação Condicional
+
+Exemplo:
+Destacar despesas acima de 1000.
+
+---
+
+## Conexão com análise de dados
+
+As funcionalidades apresentadas fazem parte do processo de análise de dados:
+
+* Coleta e organização
+* Tratamento
+* Análise
+* Visualização
+
+Esse fluxo é a base para ferramentas mais avançadas como o Microsoft Power BI.
+
+---
+
+## Atividade prática
+
+### Contexto
+
+Você atua como assistente executivo(a) e recebeu a tarefa de organizar e analisar as despesas do mês. Seguindo as etapas descritas no Tuturial da Microsoft [@microsoft_learn_tasks].
+
+### Etapa de criação da base
+
+Criar uma planilha com as colunas:
+
+* Data
+* Categoria
+* Valor
+* Responsável
+
+Inserir pelo menos 15 registros.
+
+---
+
+### Etapa de estruturação
+
+* Transformar os dados em tabela (Ctrl + T)
+* Garantir que os dados estejam organizados corretamente
+
+---
+
+### Etapa de análise com fórmula
+
+Criar uma coluna chamada Classificação com a regra:
+
+* Valor maior que 1000: Alto
+* Valor entre 500 e 1000: Médio
+* Valor menor que 500: Baixo
+
+Utilizar a função SE.
+
+---
+
+### Etapa de exploração de dados
+
+* Aplicar filtros por categoria
+* Ordenar os valores do maior para o menor
+
+---
+
+### Etapa de análise com tabela dinâmica
+
+Criar uma tabela dinâmica com:
+
+* Linhas: Categoria
+* Valores: Soma de Valor
+* Filtro: Responsável
+
+---
+
+### Etapa de visualização
+
+Criar um gráfico de colunas com base na tabela dinâmica.
+
+---
+
+### Etapa de análise crítica
+
+Responder:
+
+* Qual categoria teve maior gasto?
+* Quem gerou mais despesas?
+* Existe algum padrão relevante?
+
+---
+
+### Entrega
+
+Arquivo Excel contendo:
+
+* Base de dados estruturada
+* Uso da função SE
+* Tabela dinâmica
+* Gráfico
+* Respostas das análises
+
+---
+
+## Conclusão
+
+O uso eficiente do Excel permite transformar tarefas operacionais em atividades analíticas. No contexto do secretariado executivo, isso representa maior autonomia, precisão e capacidade de apoiar decisões estratégicas.
