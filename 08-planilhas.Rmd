@@ -321,17 +321,16 @@ Responder:
 * Quem gerou mais despesas?
 * Existe algum padrão relevante?
 
-
-
 ---
+
 ## Atividade prática 2 [Entregar]
 
- - Desenvolver uma planilha de gerenciamento de gastos pessoais (orçamento);
- - A planilha deve conter local para valores de entradas (salário, recebimentos) e saídas (contas a pagar);
- - Você deve inserir pelo menos 10 gastos em cada método de pagamento;
- - Cada método de pagamento (cartão de crédito ou débito, dinheiro) deve ter seus gastos registrados de modo que seja possível visualizar qual o valor da sua fatura/ total gasto com aquele método. 
- - Cada gasto/conta deve ser classificada (Ex.: saúde, transporte, alimentação);
- - Deve ser possível ver um gráfico de gastos por categoria;
+ * Desenvolver uma planilha de gerenciamento de gastos pessoais (orçamento);
+ * A planilha deve conter local para valores de entradas (salário, recebimentos) e saídas (contas a pagar);
+ * Você deve inserir pelo menos 10 gastos em cada método de pagamento;
+ * Cada método de pagamento (cartão de crédito ou débito, dinheiro) deve ter seus gastos registrados de modo que seja possível visualizar qual o valor da sua fatura/ total gasto com aquele método. 
+ * Cada gasto/conta deve ser classificada (Ex.: saúde, transporte, alimentação);
+ * Deve ser possível ver um gráfico de gastos por categoria;
 
 ---
 

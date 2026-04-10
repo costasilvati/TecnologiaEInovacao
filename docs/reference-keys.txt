@@ -122,7 +122,7 @@ validação-e-automação
 validação-de-dados
 formatação-condicional
 conexão-com-análise-de-dados
-atividade-prática
+atividade-prática-1
 contexto
 etapa-de-criação-da-base
 etapa-de-estruturação
@@ -131,5 +131,6 @@ etapa-de-exploração-de-dados
 etapa-de-análise-com-tabela-dinâmica
 etapa-de-visualização
 etapa-de-análise-crítica
+atividade-prática-2-entregar
 entrega
 conclusão-1
