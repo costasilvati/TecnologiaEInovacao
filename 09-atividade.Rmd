@@ -1,0 +1,113 @@
+# Atividade
+
+## Tema: Gestão de Mudanças em Processos Organizacionais
+
+## Objetivo {.unnumbered}
+
+Compreender os principais conceitos de **gestão de mudanças organizacionais**, com foco em **tecnologia e inovação**, e desenvolver a capacidade de:
+
+-   Analisar processos de mudança
+-   Identificar fatores críticos de sucesso
+-   Relacionar teoria e prática
+
+## Leituras obrigatórias {.unnumbered}
+
+Realize a leitura (total ou parcial) dos seguintes materiais:
+
+### 1. Kotter, John P. (1995) {.unnumbered}
+
+[**Leading Change: Why Transformation Efforts Fail**](https://heeoe.hee.nhs.uk/sites/default/files/leading_change_why_transformation_efforts_fail.pdf)
+
+-   Um dos modelos mais clássicos de gestão de mudança
+-   Apresenta os principais erros em processos de transformação
+
+Foco da leitura:
+
+-   Etapas da mudança
+-   Importância da liderança
+
+### 2. MUNIZ, Antonio et al (2025) {.unnumbered}
+
+**[Livro (Biblioteca Digital Pearson - UEL): Gestão de Mudanças organizacionais: um guia prático para entender, debater e aplicar as mudanças nas empresas](https://leitor.bvirtual.com.br/reader/228671/epub/-4)**
+
+-   Modelo centrado no indivíduo
+-   Mudança vista como processo humano
+
+Foco da leitura:
+
+-   Awareness (consciência)
+-   Desire (desejo)
+-   Knowledge (conhecimento)
+-   Ability (habilidade)
+-   Reinforcement (reforço)
+
+> Leitura pode ser substituida por: 
+> **[ADKAR: A Model for Change in Business, Government and Our Community](https://books.google.com.br/books?id=Te_cHbWv-ZgC&lpg=PP1&hl=pt-BR&pg=PP1#v=onepage&q&f=false)**
+
+
+### 3. Vial, Gregory (2019) {.unnumbered}
+
+[**Understanding Digital Transformation: A Review and a Research Agenda**](https://doi.org/10.1016/j.jsis.2019.01.003)
+
+-   Artigo recente sobre transformação digital
+-   Relaciona tecnologia, processos e mudança organizacional
+
+Foco da leitura:
+
+-   Impacto da tecnologia nos processos
+-   Desafios da transformação digital
+
+## Atividade
+
+**EM DUPLA - Produzir uma apresentação (máximo 5 minutos)**
+
+Desenvolva uma apresentação curta (slides) abordando:
+
+### Conceitual {.unnumbered}
+
+Explique:
+
+-   O que é gestão de mudança organizacional
+-   Por que mudanças falham
+-   Qual o papel da tecnologia nesses processos
+
+### Aplicação prática {.unnumbered}
+
+Escolha um exemplo real:
+
+-   Empresa onde trabalha ou
+-   Caso conhecido (ex: implantação de sistema, ERP, automação, digitalização)
+
+### Análise crítica {.unnumbered}
+
+Identifique:
+
+-   Quais fatores contribuíram para o sucesso ou fracasso
+-   Quais resistências ocorreram
+-   Como a tecnologia impactou o processo
+
+### Síntese (principal ponto da atividade) {.unnumbered}
+
+Responder claramente:
+
+> **Quais são os principais fatores de sucesso na gestão de mudanças em processos organizacionais?**
+
+## Requisitos da apresentação {.unnumbered}
+
+-   Duração máxima: **5 minutos**
+
+-   Formato:Slides (PowerPoint, Canva, Google Slides) ou
+
+## Entrega
+
+-   Enviar via classRoom:
+
+    -   arquivo da apresentação
+    -   Apresentação com perguntas no dia 30/04/2026 (obrigatória)
+
+
+## 💡 Orientações finais
+
+-   Evitar apenas repetir conceitos
+-   Priorizar exemplos reais
+-   Ser direto (tempo curto exige objetividade)

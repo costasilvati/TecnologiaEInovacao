@@ -134,3 +134,8 @@ etapa-de-análise-crítica
 atividade-prática-2-entregar
 entrega
 conclusão-1
+atividade
+tema-gestão-de-mudanças-em-processos-organizacionais
+atividade-1
+entrega-1
+orientações-finais
