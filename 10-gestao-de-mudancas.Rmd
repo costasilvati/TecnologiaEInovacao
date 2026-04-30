@@ -1,0 +1,228 @@
+# Gestão de Mudanças em Processos Organizacionais
+
+## Introdução
+
+A gestão de mudanças organizacionais é um tema central no contexto contemporâneo, especialmente diante da crescente digitalização dos processos e da necessidade de adaptação contínua das organizações. Mudanças não são eventos isolados, mas processos estruturados que envolvem múltiplas dimensões organizacionais.
+
+Nesta aula, retomamos as principais ideias discutidas nas apresentações dos alunos, articulando três perspectivas complementares:
+
+- A transformação digital como contexto da mudança  
+- Os modelos estruturados de gestão da mudança  
+- A aplicação prática da mudança nas organizações  
+
+---
+
+## Transformação Digital como Motor da Mudança
+
+A transformação digital tem sido um dos principais vetores de mudança nas organizações modernas. No entanto, conforme discutido por Vial [@vial2019], esse processo vai além da simples adoção de tecnologias.
+
+Segundo o autor:
+
+> A transformação digital envolve mudanças profundas na forma como as organizações operam, criam valor e interagem com seus stakeholders.
+
+Nesse sentido, a transformação digital pode ser compreendida como um fenômeno que integra:
+
+- Tecnologias digitais  
+- Processos organizacionais  
+- Estruturas de negócio  
+- Cultura organizacional  
+
+### Dimensões da transformação digital
+
+De acordo com [@vial2019], a transformação digital impacta:
+
+- Modelos de negócio  
+- Experiência do cliente  
+- Eficiência operacional  
+- Estrutura organizacional  
+
+Um ponto crítico destacado na literatura é que:
+
+> A tecnologia, isoladamente, não promove transformação — ela precisa estar alinhada a mudanças organizacionais estruturadas.
+
+---
+
+## Modelos de Gestão de Mudança
+
+A gestão da mudança exige abordagem sistemática. Um dos modelos mais consolidados é o de Kotter [@kotter2007leading], que propõe uma sequência de etapas para implementação eficaz de mudanças organizacionais.
+
+### Etapas do processo de mudança
+
+Segundo [@kotter2007leading], a mudança organizacional deve seguir:
+
+1. Estabelecer senso de urgência  
+2. Formar uma coalizão forte  
+3. Desenvolver uma visão estratégica  
+4. Comunicar a visão  
+5. Remover barreiras  
+6. Gerar ganhos de curto prazo  
+7. Consolidar os avanços  
+8. Institucionalizar a mudança  
+
+Esse modelo destaca que a mudança:
+
+- Não é imediata  
+- Requer planejamento contínuo  
+- Depende fortemente da liderança  
+
+> Processos de mudança falham quando etapas são ignoradas ou executadas de forma superficial [@kotter2007leading].
+
+---
+
+## Gestão de Mudanças na Prática Organizacional
+
+A abordagem prática da gestão de mudanças é explorada por Muniz [@muniz2025], que enfatiza a aplicação dos conceitos no cotidiano das organizações.
+
+Segundo a autora:
+
+> A gestão de mudanças deve ser compreendida como uma prática contínua, integrada à estratégia organizacional.
+
+### Elementos fundamentais da gestão prática
+
+Com base em [@muniz2025], destacam-se:
+
+- Planejamento estruturado  
+- Comunicação clara  
+- Envolvimento das equipes  
+- Monitoramento dos resultados  
+- Adaptação contínua  
+
+Além disso, a autora enfatiza que:
+
+> A resistência à mudança é um comportamento natural e deve ser gerenciada, não eliminada.
+
+---
+
+## Fatores Críticos de Sucesso
+
+A partir da integração das três leituras, é possível identificar fatores críticos para o sucesso da gestão de mudanças.
+
+### Fatores estratégicos
+
+- Alinhamento com objetivos organizacionais  
+- Definição clara de visão  
+- Liderança ativa  
+
+### Fatores humanos
+
+- Engajamento dos colaboradores  
+- Capacitação contínua  
+- Comunicação eficiente  
+
+### Fatores tecnológicos
+
+- Uso adequado da tecnologia  
+- Integração de sistemas  
+- Suporte à tomada de decisão  
+
+A literatura converge ao indicar que:
+
+> Mudanças bem-sucedidas dependem mais da gestão de pessoas do que da tecnologia em si [@vial2019; @muniz2025].
+
+---
+
+## Por que as mudanças falham?
+
+Apesar da disponibilidade de modelos e ferramentas, muitas iniciativas de mudança não alcançam os resultados esperados.
+
+### Principais causas
+
+Com base nas leituras:
+
+- Falta de comunicação ([@muniz2025])  
+- Ausência de liderança ([@kotter2007leading])  
+- Resistência dos colaboradores ([@muniz2025])  
+- Foco excessivo na tecnologia ([@vial2019])  
+- Falta de planejamento estruturado ([@kotter2007leading])  
+
+> A negligência dos aspectos humanos é uma das principais causas de falha em processos de mudança [@vial2019].
+
+---
+
+## O Papel da Tecnologia
+
+A tecnologia atua como facilitadora da mudança organizacional, mas não como elemento central.
+
+Segundo [@vial2019]:
+
+- Tecnologias digitais permitem inovação  
+- Apoiam decisões baseadas em dados  
+- Melhoram a eficiência operacional  
+
+No entanto:
+
+> A transformação digital só ocorre quando a tecnologia é acompanhada por mudanças organizacionais e culturais.
+
+---
+
+## O Papel do Profissional Executivo
+
+No contexto do secretariado executivo, o profissional desempenha um papel estratégico na gestão da mudança.
+
+### Principais funções
+
+- Facilitar a comunicação organizacional  
+- Organizar fluxos de informação  
+- Apoiar a implementação de tecnologias  
+- Mediar relações entre equipes e ղեկավար  
+
+Esse profissional atua como elo entre:
+
+- Estratégia  
+- Operação  
+- Tecnologia  
+
+---
+
+## Síntese Integrada
+
+A partir das três leituras, podemos compreender a gestão de mudanças como:
+
+- Um processo estruturado ([@kotter2007leading])  
+- Um fenômeno organizacional amplo ([@vial2019])  
+- Uma prática aplicada ao cotidiano ([@muniz2025])  
+
+
+---
+
+## Atividade Prática: Avaliação em Pares
+
+### Objetivo
+
+Desenvolver a capacidade crítica e reflexiva por meio da análise de apresentações.
+
+### Descrição
+
+Cada dupla deverá avaliar a apresentação de uma outra dupla com base em critérios definidos:
+
+- Clareza  
+- Domínio do conteúdo  
+- Uso das leituras  
+- Organização  
+- Originalidade  
+
+### Etapas
+
+1. Distribuição das apresentações  
+2. Avaliação individual  
+3. Discussão em pares  
+4. Debate coletivo  
+
+---
+
+## Reflexão Final
+
+
+- O que eu mudaria na minha apresentação após esta aula?
+
+
+---
+<!--
+## Referências
+
+VIAL, G. Understanding Digital Transformation: A Review and a Research Agenda. Journal of Strategic Information Systems, 2019.
+
+KOTTER, J. P. Leading Change. Harvard Business Review Press.
+
+MUNIZ, A. Gestão de Mudanças Organizacionais: um guia prático para entender, debater e aplicar as mudanças nas empresas, 2025.
+-->

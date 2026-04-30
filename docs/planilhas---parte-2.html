@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>References | Tecnologia e Inovação</title>
+  <title>Capítulo 7 Planilhas - parte 2 | Tecnologia e Inovação</title>
   <meta name="description" content="Compilado de conteúdos utilizados na disciplina de Tecnologia e Inovação." />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="References | Tecnologia e Inovação" />
+  <meta property="og:title" content="Capítulo 7 Planilhas - parte 2 | Tecnologia e Inovação" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Compilado de conteúdos utilizados na disciplina de Tecnologia e Inovação." />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="References | Tecnologia e Inovação" />
+  <meta name="twitter:title" content="Capítulo 7 Planilhas - parte 2 | Tecnologia e Inovação" />
   
   <meta name="twitter:description" content="Compilado de conteúdos utilizados na disciplina de Tecnologia e Inovação." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="ferramentas-digitais-na-atuação-do-profissional-executivo.html"/>
-<link rel="next" href="planilhas-inteligentes-na-rotina-do-secretariado-executivo.html"/>
+<link rel="prev" href="gestão-de-mudanças-em-processos-organizacionais.html"/>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -419,17 +419,773 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="references" class="section level1 unnumbered hasAnchor">
-<h1>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="planilhas---parte-2" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">Capítulo 7</span> Planilhas - parte 2<a href="planilhas---parte-2.html#planilhas---parte-2" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!-- # Validação de dados nas planilhas Registros, Categorias e Carteiras -->
+<div id="objetivo-3" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Objetivo<a href="planilhas---parte-2.html#objetivo-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Neste material, vamos estruturar um arquivo <code>.xlsx</code> de gerenciamento financeiro com três planilhas:</p>
+<ul>
+<li><code>Registros</code></li>
+<li><code>Categorias</code></li>
+<li><code>Carteiras</code></li>
+</ul>
+<p>A meta é fazer com que, na planilha <code>Registros</code>, as colunas <code>carteira</code> e <code>categoria</code> aceitem apenas valores previamente cadastrados nas planilhas <code>Carteiras</code> e <code>Categorias</code>.</p>
+<p>Além disso, o material apresenta duas implementações:</p>
+<ul>
+<li>no Microsoft Excel;</li>
+<li>no Google Planilhas.</li>
+</ul>
+</div>
+<div id="estrutura-recomendada-do-arquivo" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Estrutura recomendada do arquivo<a href="planilhas---parte-2.html#estrutura-recomendada-do-arquivo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="planilha-registros" class="section level3 hasAnchor" number="7.2.1">
+<h3><span class="header-section-number">7.2.1</span> Planilha Registros<a href="planilhas---parte-2.html#planilha-registros" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Colunas sugeridas:</p>
+<ul>
+<li><code>data</code></li>
+<li><code>desc</code></li>
+<li><code>parcelas</code></li>
+<li><code>carteira</code></li>
+<li><code>categoria</code></li>
+<li><code>Entrada/Saída</code></li>
+</ul>
+<p>Exemplo:</p>
+<table>
+<colgroup>
+<col width="15%" />
+<col width="22%" />
+<col width="12%" />
+<col width="12%" />
+<col width="16%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>data</th>
+<th>desc</th>
+<th>parcelas</th>
+<th>carteira</th>
+<th>categoria</th>
+<th>Entrada/Saída</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01/04/2026</td>
+<td>Salário</td>
+<td>1</td>
+<td>Nubank</td>
+<td>Salário</td>
+<td>Entrada</td>
+</tr>
+<tr class="even">
+<td>02/04/2026</td>
+<td>Supermercado</td>
+<td>1</td>
+<td>Dinheiro</td>
+<td>Alimentação</td>
+<td>Saída</td>
+</tr>
+<tr class="odd">
+<td>03/04/2026</td>
+<td>Compra notebook</td>
+<td>10</td>
+<td>Cartão</td>
+<td>Tecnologia</td>
+<td>Saída</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="planilha-categorias" class="section level3 hasAnchor" number="7.2.2">
+<h3><span class="header-section-number">7.2.2</span> Planilha Categorias<a href="planilhas---parte-2.html#planilha-categorias" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Colunas:</p>
+<ul>
+<li><code>id</code></li>
+<li><code>nome</code></li>
+</ul>
+<p>Exemplo:</p>
+<table>
+<thead>
+<tr class="header">
+<th>id</th>
+<th>nome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Alimentação</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Transporte</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Moradia</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Salário</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Tecnologia</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="planilha-carteiras" class="section level3 hasAnchor" number="7.2.3">
+<h3><span class="header-section-number">7.2.3</span> Planilha Carteiras<a href="planilhas---parte-2.html#planilha-carteiras" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Colunas:</p>
+<ul>
+<li><code>id</code></li>
+<li><code>nome</code></li>
+</ul>
+<p>Exemplo:</p>
+<table>
+<thead>
+<tr class="header">
+<th>id</th>
+<th>nome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Dinheiro</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Nubank</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Inter</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Cartão</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ideia central da solução</strong></p>
+<p>A lógica é simples:</p>
+<ol style="list-style-type: decimal">
+<li>cadastrar as categorias e carteiras em abas auxiliares;</li>
+<li>transformar essas listas em fontes confiáveis de dados;</li>
+<li>aplicar validação de dados na aba <code>Registros</code>;</li>
+<li>impedir que o usuário digite valores fora das listas permitidas.</li>
+</ol>
+<p>Na prática, isso cria listas suspensas nas colunas <code>carteira</code> e <code>categoria</code>.</p>
+</div>
+</div>
+<div id="como-fazer-no-excel" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> Como fazer no Excel<a href="planilhas---parte-2.html#como-fazer-no-excel" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="visão-geral-1" class="section level3 unnumbered hasAnchor">
+<h3>Visão geral<a href="planilhas---parte-2.html#vis%C3%A3o-geral-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>No Excel, a validação de dados permite restringir o conteúdo de uma célula e criar listas suspensas. A Microsoft orienta usar <code>Dados &gt; Validação de Dados</code> e, para listas armazenadas em outra planilha, recomenda definir um nome para o intervalo da lista. Isso torna a solução mais estável e mais fácil de manter.</p>
+</div>
+<div id="passo-um-organizar-as-listas-auxiliares" class="section level3 unnumbered hasAnchor">
+<h3>Passo um: organizar as listas auxiliares<a href="planilhas---parte-2.html#passo-um-organizar-as-listas-auxiliares" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Na planilha <code>Categorias</code>, preencha a coluna <code>nome</code> com os nomes das categorias.</p>
+<p>Na planilha <code>Carteiras</code>, preencha a coluna <code>nome</code> com os nomes das carteiras.</p>
+<p>Sugestão prática:</p>
+<ul>
+<li>deixe a linha 1 para os cabeçalhos;</li>
+<li>coloque os dados a partir da linha 2;</li>
+<li>evite linhas vazias no meio da lista.</li>
+</ul>
+<p>Exemplo:</p>
+<div id="categorias" class="section level4 unnumbered hasAnchor">
+<h4>Categorias<a href="planilhas---parte-2.html#categorias" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>id</td>
+<td>nome</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Alimentação</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Transporte</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Moradia</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Salário</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="carteiras" class="section level4 unnumbered hasAnchor">
+<h4>Carteiras<a href="planilhas---parte-2.html#carteiras" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>id</td>
+<td>nome</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Dinheiro</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Nubank</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Inter</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Cartão</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="passo-dois-criar-intervalos-nomeados" class="section level3 unnumbered hasAnchor">
+<h3>Passo dois: criar intervalos nomeados<a href="planilhas---parte-2.html#passo-dois-criar-intervalos-nomeados" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Esse é o ponto mais importante no Excel.</p>
+<p>Em vez de tentar apontar a validação diretamente para outra planilha, crie um nome para cada lista.</p>
+<div id="intervalo-para-categorias" class="section level4 unnumbered hasAnchor">
+<h4>Intervalo para categorias<a href="planilhas---parte-2.html#intervalo-para-categorias" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Vá até a planilha <code>Categorias</code>.</li>
+<li>Selecione apenas os nomes das categorias, por exemplo: <code>B2:B100</code>.</li>
+<li>Acesse a guia <code>Fórmulas</code>.</li>
+<li>Clique em <code>Definir Nome</code>.</li>
+<li>Use o nome:</li>
+</ol>
+<pre class="text"><code>lista_categorias</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>Confirme.</li>
+</ol>
+</div>
+<div id="intervalo-para-carteiras" class="section level4 unnumbered hasAnchor">
+<h4>Intervalo para carteiras<a href="planilhas---parte-2.html#intervalo-para-carteiras" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Vá até a planilha <code>Carteiras</code>.</li>
+<li>Selecione os nomes das carteiras, por exemplo: <code>B2:B100</code>.</li>
+<li>Acesse <code>Fórmulas &gt; Definir Nome</code>.</li>
+<li>Use o nome:</li>
+</ol>
+<pre class="text"><code>lista_carteiras</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>Confirme.</li>
+</ol>
+</div>
+</div>
+<div id="passo-três-aplicar-validação-na-planilha-registros" class="section level3 unnumbered hasAnchor">
+<h3>Passo três: aplicar validação na planilha Registros<a href="planilhas---parte-2.html#passo-tr%C3%AAs-aplicar-valida%C3%A7%C3%A3o-na-planilha-registros" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Agora vá para a planilha <code>Registros</code>.</p>
+<div id="validar-a-coluna-categoria" class="section level4 unnumbered hasAnchor">
+<h4>Validar a coluna categoria<a href="planilhas---parte-2.html#validar-a-coluna-categoria" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Supondo que a coluna <code>categoria</code> seja a coluna <code>E</code>:</p>
+<ol style="list-style-type: decimal">
+<li>selecione o intervalo onde os usuários irão digitar, por exemplo <code>E2:E500</code>;</li>
+<li>acesse <code>Dados &gt; Validação de Dados</code>;</li>
+<li>em <code>Permitir</code>, escolha <code>Lista</code>;</li>
+<li>em <code>Fonte</code>, digite:</li>
+</ol>
+<pre class="text"><code>=lista_categorias</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>confirme.</li>
+</ol>
+</div>
+<div id="validar-a-coluna-carteira" class="section level4 unnumbered hasAnchor">
+<h4>Validar a coluna carteira<a href="planilhas---parte-2.html#validar-a-coluna-carteira" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Supondo que a coluna <code>carteira</code> seja a coluna <code>D</code>:</p>
+<ol style="list-style-type: decimal">
+<li>selecione <code>D2:D500</code>;</li>
+<li>acesse <code>Dados &gt; Validação de Dados</code>;</li>
+<li>escolha <code>Lista</code>;</li>
+<li>em <code>Fonte</code>, digite:</li>
+</ol>
+<pre class="text"><code>=lista_carteiras</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>confirme.</li>
+</ol>
+</div>
+</div>
+<div id="passo-quatro-configurar-a-mensagem-de-erro" class="section level3 unnumbered hasAnchor">
+<h3>Passo quatro: configurar a mensagem de erro<a href="planilhas---parte-2.html#passo-quatro-configurar-a-mensagem-de-erro" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>No Excel, você pode personalizar a mensagem mostrada quando alguém tentar digitar um valor inválido.</p>
+<p>Na janela de validação:</p>
+<ol style="list-style-type: decimal">
+<li>abra a aba <code>Alerta de Erro</code>;</li>
+<li>mantenha a opção para bloquear entradas inválidas;</li>
+<li>use um título, por exemplo:</li>
+</ol>
+<pre class="text"><code>Valor inválido</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>use uma mensagem como:</li>
+</ol>
+<pre class="text"><code>Selecione um item da lista cadastrada.</code></pre>
+<p>Isso melhora a usabilidade da planilha.</p>
+</div>
+<div id="observação-importante-sobre-atualização-das-listas-no-excel" class="section level3 unnumbered hasAnchor">
+<h3>Observação importante sobre atualização das listas no Excel<a href="planilhas---parte-2.html#observa%C3%A7%C3%A3o-importante-sobre-atualiza%C3%A7%C3%A3o-das-listas-no-excel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Se você cadastrou um intervalo fixo como <code>B2:B100</code>, a validação continuará funcionando bem enquanto os novos valores forem adicionados dentro desse limite.</p>
+<p>Se quiser uma solução mais robusta, há duas opções:</p>
+<ul>
+<li>definir um intervalo suficientemente grande, como <code>B2:B1000</code>;</li>
+<li>transformar a base em tabela e depois manter um intervalo nomeado bem planejado.</li>
+</ul>
+<p>Para um material didático e para planilhas administrativas, o intervalo fixo amplo costuma ser a solução mais simples.</p>
+</div>
+</div>
+<div id="como-fazer-no-google-planilhas" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> Como fazer no Google Planilhas<a href="planilhas---parte-2.html#como-fazer-no-google-planilhas" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="visão-geral-2" class="section level3 unnumbered hasAnchor">
+<h3>Visão geral<a href="planilhas---parte-2.html#vis%C3%A3o-geral-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>No Google Planilhas, a lógica é semelhante, mas a configuração costuma ser mais direta. A ajuda oficial permite criar uma lista suspensa a partir de um intervalo e informa que, quando o conteúdo do intervalo-fonte muda, a lista é atualizada automaticamente.</p>
+</div>
+<div id="passo-um-preencher-as-abas-auxiliares" class="section level3 unnumbered hasAnchor">
+<h3>Passo um: preencher as abas auxiliares<a href="planilhas---parte-2.html#passo-um-preencher-as-abas-auxiliares" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Repita a mesma organização:</p>
+<div id="categorias-1" class="section level4 unnumbered hasAnchor">
+<h4>Categorias<a href="planilhas---parte-2.html#categorias-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>id</td>
+<td>nome</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Alimentação</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Transporte</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Moradia</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Salário</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="carteiras-1" class="section level4 unnumbered hasAnchor">
+<h4>Carteiras<a href="planilhas---parte-2.html#carteiras-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>id</td>
+<td>nome</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Dinheiro</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Nubank</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Inter</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Cartão</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="passo-dois-validar-a-coluna-categoria" class="section level3 unnumbered hasAnchor">
+<h3>Passo dois: validar a coluna categoria<a href="planilhas---parte-2.html#passo-dois-validar-a-coluna-categoria" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Na aba <code>Registros</code>:</p>
+<ol style="list-style-type: decimal">
+<li>selecione as células da coluna <code>categoria</code>, por exemplo <code>E2:E500</code>;</li>
+<li>clique em <code>Dados &gt; Validação de dados</code>;</li>
+<li>clique em <code>Adicionar regra</code>;</li>
+<li>em <code>Critérios</code>, escolha <code>Lista suspensa a partir de um intervalo</code>;</li>
+<li>informe o intervalo:</li>
+</ol>
+<pre class="text"><code>Categorias!B2:B</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>marque a opção para rejeitar entrada inválida, se desejar impedir digitação fora da lista;</li>
+<li>clique em <code>Concluído</code>.</li>
+</ol>
+</div>
+<div id="passo-três-validar-a-coluna-carteira" class="section level3 unnumbered hasAnchor">
+<h3>Passo três: validar a coluna carteira<a href="planilhas---parte-2.html#passo-tr%C3%AAs-validar-a-coluna-carteira" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Na aba <code>Registros</code>:</p>
+<ol style="list-style-type: decimal">
+<li>selecione <code>D2:D500</code>;</li>
+<li>vá em <code>Dados &gt; Validação de dados</code>;</li>
+<li>crie uma nova regra;</li>
+<li>escolha <code>Lista suspensa a partir de um intervalo</code>;</li>
+<li>informe:</li>
+</ol>
+<pre class="text"><code>Carteiras!B2:B</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>conclua.</li>
+</ol>
+</div>
+<div id="vantagem-prática-no-google-planilhas" class="section level3 unnumbered hasAnchor">
+<h3>Vantagem prática no Google Planilhas<a href="planilhas---parte-2.html#vantagem-pr%C3%A1tica-no-google-planilhas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>No Google Planilhas, o uso de intervalos abertos como <code>B2:B</code> é muito útil. Assim, quando novas categorias ou carteiras são adicionadas, elas passam a aparecer automaticamente na lista, sem necessidade de editar a regra manualmente.</p>
+</div>
+<div id="como-validar-também-a-coluna-entradasaída" class="section level3 unnumbered hasAnchor">
+<h3>Como validar também a coluna Entrada/Saída<a href="planilhas---parte-2.html#como-validar-tamb%C3%A9m-a-coluna-entradasa%C3%ADda" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Como a coluna <code>Entrada/Saída</code> possui poucas opções e elas quase nunca mudam, você pode criar uma validação simples diretamente na própria regra.</p>
+</div>
+<div id="no-excel" class="section level3 hasAnchor" number="7.4.1">
+<h3><span class="header-section-number">7.4.1</span> No Excel<a href="planilhas---parte-2.html#no-excel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>selecione a coluna correspondente, por exemplo <code>F2:F500</code>;</li>
+<li>vá em <code>Dados &gt; Validação de Dados</code>;</li>
+<li>escolha <code>Lista</code>;</li>
+<li>em <code>Fonte</code>, digite:</li>
+</ol>
+<pre class="text"><code>Entrada,Saída</code></pre>
+<p>Observação: dependendo da configuração regional do Excel, o separador pode variar. Em muitos casos, especialmente no Brasil, o separador correto pode ser <code>;</code> em vez de <code>,</code>.</p>
+</div>
+<div id="no-google-planilhas" class="section level3 hasAnchor" number="7.4.2">
+<h3><span class="header-section-number">7.4.2</span> No Google Planilhas<a href="planilhas---parte-2.html#no-google-planilhas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>selecione <code>F2:F500</code>;</li>
+<li>vá em <code>Dados &gt; Validação de dados</code>;</li>
+<li>escolha <code>Lista suspensa</code>;</li>
+<li>adicione os itens:
+<ul>
+<li>Entrada</li>
+<li>Saída</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="boas-práticas-para-esse-tipo-de-arquivo" class="section level2 hasAnchor" number="7.5">
+<h2><span class="header-section-number">7.5</span> Boas práticas para esse tipo de arquivo<a href="planilhas---parte-2.html#boas-pr%C3%A1ticas-para-esse-tipo-de-arquivo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="padronizar-nomes-das-abas" class="section level3 hasAnchor" number="7.5.1">
+<h3><span class="header-section-number">7.5.1</span> Padronizar nomes das abas<a href="planilhas---parte-2.html#padronizar-nomes-das-abas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Use exatamente estes nomes:</p>
+<ul>
+<li><code>Registros</code></li>
+<li><code>Categorias</code></li>
+<li><code>Carteiras</code></li>
+</ul>
+<p>Isso evita erros nas referências.</p>
+</div>
+<div id="não-permitir-duplicidades-desnecessárias" class="section level3 hasAnchor" number="7.5.2">
+<h3><span class="header-section-number">7.5.2</span> Não permitir duplicidades desnecessárias<a href="planilhas---parte-2.html#n%C3%A3o-permitir-duplicidades-desnecess%C3%A1rias" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Em <code>Categorias</code> e <code>Carteiras</code>, evite repetir nomes.</p>
+<p>Exemplo inadequado:</p>
+<table>
+<thead>
+<tr class="header">
+<th>id</th>
+<th>nome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Alimentação</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Alimentação</td>
+</tr>
+</tbody>
+</table>
+<p>Isso gera listas com opções repetidas e dificulta análises posteriores.</p>
+</div>
+<div id="manter-o-cadastro-como-base-mestra" class="section level3 hasAnchor" number="7.5.3">
+<h3><span class="header-section-number">7.5.3</span> Manter o cadastro como base mestra<a href="planilhas---parte-2.html#manter-o-cadastro-como-base-mestra" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>As planilhas <code>Categorias</code> e <code>Carteiras</code> devem funcionar como tabelas de cadastro. O ideal é que os usuários não criem categorias novas diretamente em <code>Registros</code>.</p>
+</div>
+<div id="preparar-pensando-em-análise-de-dados" class="section level3 hasAnchor" number="7.5.4">
+<h3><span class="header-section-number">7.5.4</span> Preparar pensando em análise de dados<a href="planilhas---parte-2.html#preparar-pensando-em-an%C3%A1lise-de-dados" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Essa modelagem ajuda muito em relatórios futuros, porque:</p>
+<ul>
+<li>reduz erros de digitação;</li>
+<li>evita categorias escritas de formas diferentes;</li>
+<li>facilita filtros e tabelas dinâmicas;</li>
+<li>melhora a qualidade dos dados para dashboards.</li>
+</ul>
+<p>Exemplo de problema evitado:</p>
+<ul>
+<li><code>Alimentação</code></li>
+<li><code>alimentação</code></li>
+<li><code>Alimentacao</code></li>
+<li><code>Alim.</code></li>
+</ul>
+<p>Sem validação, o sistema trata esses valores como categorias diferentes.</p>
+</div>
+</div>
+<div id="exemplo-de-fluxo-de-uso" class="section level2 hasAnchor" number="7.6">
+<h2><span class="header-section-number">7.6</span> Exemplo de fluxo de uso<a href="planilhas---parte-2.html#exemplo-de-fluxo-de-uso" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="cadastro-de-categorias" class="section level3 hasAnchor" number="7.6.1">
+<h3><span class="header-section-number">7.6.1</span> Cadastro de categorias<a href="planilhas---parte-2.html#cadastro-de-categorias" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Na aba <code>Categorias</code>:</p>
+<table>
+<thead>
+<tr class="header">
+<th>id</th>
+<th>nome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Alimentação</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Transporte</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Moradia</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Saúde</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Lazer</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Salário</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="cadastro-de-carteiras" class="section level3 hasAnchor" number="7.6.2">
+<h3><span class="header-section-number">7.6.2</span> Cadastro de carteiras<a href="planilhas---parte-2.html#cadastro-de-carteiras" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Na aba <code>Carteiras</code>:</p>
+<table>
+<thead>
+<tr class="header">
+<th>id</th>
+<th>nome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Dinheiro</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Conta Itaú</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Cartão XP</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Nubank</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="lançamentos-em-registros" class="section level3 hasAnchor" number="7.6.3">
+<h3><span class="header-section-number">7.6.3</span> Lançamentos em Registros<a href="planilhas---parte-2.html#lan%C3%A7amentos-em-registros" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<table style="width:100%;">
+<colgroup>
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>data</th>
+<th>desc</th>
+<th>parcelas</th>
+<th>carteira</th>
+<th>categoria</th>
+<th>Entrada/Saída</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>05/04/2026</td>
+<td>Mercado</td>
+<td>1</td>
+<td>Nubank</td>
+<td>Alimentação</td>
+<td>Saída</td>
+</tr>
+<tr class="even">
+<td>06/04/2026</td>
+<td>Uber</td>
+<td>1</td>
+<td>Dinheiro</td>
+<td>Transporte</td>
+<td>Saída</td>
+</tr>
+<tr class="odd">
+<td>07/04/2026</td>
+<td>Salário empresa</td>
+<td>1</td>
+<td>Conta Itaú</td>
+<td>Salário</td>
+<td>Entrada</td>
+</tr>
+</tbody>
+</table>
+<p>Observe que <code>carteira</code> e <code>categoria</code> deixam de ser texto livre e passam a seguir um cadastro controlado.</p>
+</div>
+</div>
+<div id="quando-usar-id-e-quando-usar-nome" class="section level2 hasAnchor" number="7.7">
+<h2><span class="header-section-number">7.7</span> Quando usar ID e quando usar nome<a href="planilhas---parte-2.html#quando-usar-id-e-quando-usar-nome" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Para entrada manual no dia a dia, é melhor que a lista suspensa mostre o <code>nome</code>, e não o <code>id</code>.</p>
+<p>O <code>id</code> é útil para:</p>
+<ul>
+<li>organização interna;</li>
+<li>possíveis integrações futuras;</li>
+<li>relacionamentos em modelos mais avançados.</li>
+</ul>
+<p>Mas, para a aba <code>Registros</code>, o mais amigável é selecionar diretamente nomes como <code>Nubank</code>, <code>Alimentação</code> e <code>Transporte</code>.</p>
+</div>
+<div id="resumo-comparativo" class="section level2 hasAnchor" number="7.8">
+<h2><span class="header-section-number">7.8</span> Resumo comparativo<a href="planilhas---parte-2.html#resumo-comparativo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<table>
+<colgroup>
+<col width="23%" />
+<col width="23%" />
+<col width="52%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspecto</th>
+<th>Excel</th>
+<th>Google Planilhas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lista suspensa</td>
+<td>Sim</td>
+<td>Sim</td>
+</tr>
+<tr class="even">
+<td>Validação por intervalo em outra aba</td>
+<td>Melhor via intervalo nomeado</td>
+<td>Direto por intervalo</td>
+</tr>
+<tr class="odd">
+<td>Atualização automática da lista</td>
+<td>Depende da forma como o intervalo foi criado</td>
+<td>Mais simples com intervalo aberto</td>
+</tr>
+<tr class="even">
+<td>Mensagem de erro</td>
+<td>Sim</td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="conclusão-2" class="section level2 hasAnchor" number="7.9">
+<h2><span class="header-section-number">7.9</span> Conclusão<a href="planilhas---parte-2.html#conclus%C3%A3o-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Para controlar as colunas <code>carteira</code> e <code>categoria</code> com base em cadastros prévios, a estratégia correta é usar validação de dados com listas suspensas.</p>
+<p>No Excel, a forma mais segura é:</p>
+<ul>
+<li>criar os cadastros nas abas auxiliares;</li>
+<li>definir intervalos nomeados;</li>
+<li>usar esses nomes como fonte da validação.</li>
+</ul>
+<p>No Google Planilhas, a forma mais prática é:</p>
+<ul>
+<li>criar os cadastros nas abas auxiliares;</li>
+<li>usar a opção <code>Lista suspensa a partir de um intervalo</code> apontando para as colunas de nomes.</li>
+</ul>
+<p>Essa estrutura melhora a consistência dos dados e prepara o arquivo para análises futuras, como tabelas dinâmicas, gráficos e dashboards.</p>
+</div>
+<div id="referências-2" class="section level2 hasAnchor" number="7.10">
+<h2><span class="header-section-number">7.10</span> Referências<a href="planilhas---parte-2.html#refer%C3%AAncias-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Microsoft Support. <em>Apply data validation to cells</em>. Disponível em: <a href="https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249" class="uri">https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249</a>.</p>
+<p>Microsoft Support. <em>Use the Name Manager in Excel</em>. Disponível em: <a href="https://support.microsoft.com/en-au/office/use-the-name-manager-in-excel-4d8c4c2b-9f7d-44e3-a3b4-9f61bd5c64e4" class="uri">https://support.microsoft.com/en-au/office/use-the-name-manager-in-excel-4d8c4c2b-9f7d-44e3-a3b4-9f61bd5c64e4</a>.</p>
+<p>Microsoft Support. <em>More on data validation</em>. Disponível em: <a href="https://support.microsoft.com/en-au/office/more-on-data-validation-f38dee73-9900-4ca6-9301-8a5f6e1f0c4c" class="uri">https://support.microsoft.com/en-au/office/more-on-data-validation-f38dee73-9900-4ca6-9301-8a5f6e1f0c4c</a>.</p>
+<p>Microsoft Support. <em>Overview of Excel tables</em>. Disponível em: <a href="https://support.microsoft.com/en-gb/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c" class="uri">https://support.microsoft.com/en-gb/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c</a>.</p>
+<p>Google Docs Editors Help. <em>Create an in-cell dropdown list</em>. Disponível em: <a href="https://support.google.com/docs/answer/186103" class="uri">https://support.google.com/docs/answer/186103</a>.</p>
 
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
+<div class="csl-entry">
+Kotter, John P. 2007. <span>“Leading Change: Why Transformation Efforts Fail.”</span> In <em>Museum Management and Marketing</em>, 20–29. Routledge.
+</div>
+<div class="csl-entry">
+Microsoft. 2026a. <span>“Introduction to Data Analytics.”</span> <a href="https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/1-introduction">https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/1-introduction</a>.
+</div>
+<div class="csl-entry">
+———. 2026b. <span>“Microsoft Excel Documentation.”</span> <a href="https://support.microsoft.com/excel">https://support.microsoft.com/excel</a>.
+</div>
+<div class="csl-entry">
+———. 2026c. <span>“Tasks in Data Analytics.”</span> <a href="https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/4-tasks">https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/4-tasks</a>.
+</div>
+<div class="csl-entry">
+Muniz, A., A. Torrejon, A. C. de Oliveira Costa, A. C. Cotrin, A. Costa, A. Olivio, A. Aranha, et al. 2025. <em>Gest<span>ã</span>o de Mudan<span>ç</span>as Organizacionais: Um Guia Pr<span>á</span>tico Para Entender, Debater e Aplicar as Mudan<span>ç</span>as Nas Empresas</em>. Brasport. <a href="https://books.google.com.br/books?id=xI2TEQAAQBAJ">https://books.google.com.br/books?id=xI2TEQAAQBAJ</a>.
+</div>
+<div class="csl-entry">
+Vial, Gregory. 2019. <span>“Understanding Digital Transformation: A Review and a Research Agenda.”</span> <em>The Journal of Strategic Information Systems</em> 28 (June): 118–44. <a href="https://doi.org/10.1016/j.jsis.2019.01.003">https://doi.org/10.1016/j.jsis.2019.01.003</a>.
+</div>
+<div class="csl-entry">
+W3Schools. 2026a. <span>“Excel Data Analysis.”</span> <a href="https://www.w3schools.com/excel/excel_data_analysis.php">https://www.w3schools.com/excel/excel_data_analysis.php</a>.
+</div>
+<div class="csl-entry">
+———. 2026b. <span>“Excel Tutorial.”</span> <a href="https://www.w3schools.com/excel/index.php">https://www.w3schools.com/excel/index.php</a>.
+</div>
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="ferramentas-digitais-na-atuação-do-profissional-executivo.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="planilhas-inteligentes-na-rotina-do-secretariado-executivo.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="gestão-de-mudanças-em-processos-organizacionais.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -460,7 +1216,7 @@ gitbook.start({
     "size": 2
   },
   "edit": {
-    "link": "https://github.com/costasilvati/TecnologiaEInovacao07-references.Rmd",
+    "link": "https://github.com/costasilvati/TecnologiaEInovacao10-planilhas.Rmd",
     "text": "Edit"
   },
   "history": {
