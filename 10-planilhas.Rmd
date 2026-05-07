@@ -1,6 +1,5 @@
 # Planilhas - parte 2
 
-<!-- # Validação de dados nas planilhas Registros, Categorias e Carteiras -->
 
 ## Objetivo
 
@@ -435,15 +434,3 @@ No Google Planilhas, a forma mais prática é:
 -   usar a opção `Lista suspensa a partir de um intervalo` apontando para as colunas de nomes.
 
 Essa estrutura melhora a consistência dos dados e prepara o arquivo para análises futuras, como tabelas dinâmicas, gráficos e dashboards.
-
-## Referências
-
-Microsoft Support. *Apply data validation to cells*. Disponível em: <https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249>.
-
-Microsoft Support. *Use the Name Manager in Excel*. Disponível em: <https://support.microsoft.com/en-au/office/use-the-name-manager-in-excel-4d8c4c2b-9f7d-44e3-a3b4-9f61bd5c64e4>.
-
-Microsoft Support. *More on data validation*. Disponível em: <https://support.microsoft.com/en-au/office/more-on-data-validation-f38dee73-9900-4ca6-9301-8a5f6e1f0c4c>.
-
-Microsoft Support. *Overview of Excel tables*. Disponível em: <https://support.microsoft.com/en-gb/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c>.
-
-Google Docs Editors Help. *Create an in-cell dropdown list*. Disponível em: <https://support.google.com/docs/answer/186103>.

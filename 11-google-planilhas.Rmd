@@ -1,0 +1,531 @@
+# Google Planilhas
+
+## Introdução
+
+O Google Sheets (Google Planilhas) é uma ferramenta de planilhas eletrônicas baseada em nuvem que permite organizar, analisar e manipular dados de forma colaborativa.
+
+Uma das funcionalidades mais importantes do Google Planilhas é o uso de **fórmulas** e **funções**, que automatizam cálculos e análises, reduzindo erros e aumentando a produtividade.
+
+Nesta aula serão apresentadas as principais fórmulas utilizadas no cotidiano profissional, especialmente em atividades administrativas e organizacionais.
+
+
+
+## O que são fórmulas?
+
+As fórmulas são expressões utilizadas para realizar cálculos automáticos nas células da planilha.
+
+Toda fórmula no Google Planilhas inicia com o símbolo:
+
+```text
+=
+```
+
+### Exemplos simples {-}
+
+#### Soma direta {-}
+
+```text
+=10+5
+```
+
+Resultado:
+
+```text
+15
+```
+
+#### Multiplicação {-}
+
+```text
+=5*8
+```
+
+Resultado:
+
+```text
+40
+```
+
+
+
+## Referência de células
+
+O principal diferencial das planilhas é a possibilidade de utilizar referências de células.
+
+### Exemplo {-}
+
+| A | B |
+|---|---|
+| 10 | 20 |
+
+Fórmula:
+
+```text
+=A1+B1
+```
+
+Resultado:
+
+```text
+30
+```
+
+
+## Principais operadores matemáticos
+
+| Operador | Função |
+|---|---|
+| + | Soma |
+| - | Subtração |
+| * | Multiplicação |
+| / | Divisão |
+| ^ | Potência |
+
+
+
+## Funções Matemáticas Básicas
+
+### SOMA {-}
+
+A função `SOMA` realiza a soma de valores.
+
+#### Sintaxe {-}
+
+```text
+=SOMA(intervalo)
+```
+
+#### Exemplo {-}
+
+```text
+=SOMA(A1:A10)
+```
+
+Essa fórmula soma todos os valores entre as células A1 e A10.
+
+
+
+### MÉDIA {-}
+
+Calcula a média aritmética.
+
+#### Sintaxe {-}
+
+```text
+=MÉDIA(intervalo)
+```
+
+#### Exemplo {-}
+
+```text
+=MÉDIA(B1:B5)
+```
+
+
+
+### MÁXIMO {-}
+
+Retorna o maior valor do intervalo.
+
+#### Exemplo {-}
+
+```text
+=MÁXIMO(C1:C20)
+```
+
+
+
+### MÍNIMO {-}
+
+Retorna o menor valor do intervalo.
+
+#### Exemplo {-}
+
+```text
+=MÍNIMO(C1:C20)
+```
+
+
+
+### CONT.NÚM {-}
+
+Conta quantas células possuem números.
+
+#### Exemplo {-}
+
+```text
+=CONT.NÚM(A1:A20)
+```
+
+
+
+## Funções Condicionais
+
+As funções condicionais permitem tomar decisões automáticas dentro da planilha.
+
+
+
+### SE {-}
+
+A função `SE` executa testes lógicos.
+
+#### Sintaxe {-}
+
+```text
+=SE(teste_lógico; valor_se_verdadeiro; valor_se_falso)
+```
+
+#### Exemplo {-}
+
+```text
+=SE(B2>=7;"Aprovado";"Reprovado")
+```
+
+
+
+### SEERRO {-}
+
+Evita mensagens de erro na planilha.
+
+#### Exemplo {-}
+
+```text
+=SEERRO(A1/B1;"Erro de cálculo")
+```
+
+Essa função é muito utilizada em dashboards e relatórios.
+
+
+## Funções de Busca
+
+As funções de busca permitem localizar informações automaticamente.
+
+
+
+### PROCV {-}
+
+A função `PROCV` procura um valor verticalmente em uma tabela.
+
+#### Sintaxe {-}
+
+```text
+=PROCV(valor_procurado; intervalo; coluna; falso)
+```
+
+#### Exemplo {-}
+
+```text
+=PROCV(A2;E2:G10;2;FALSO)
+```
+
+
+
+#### Aplicação prática {-}
+
+- Buscar preços
+- Buscar nomes
+- Consultar categorias
+- Automatizar cadastros
+
+
+
+### PROCH {-}
+
+Semelhante ao PROCV, mas realiza busca horizontal.
+
+
+
+## Funções de Texto
+
+### CONCATENAR {-}
+
+Une textos.
+
+#### Exemplo {-}
+
+```text
+=CONCATENAR(A1;" ";B1)
+```
+### MAIÚSCULA {-}
+
+Transforma o texto em letras maiúsculas.
+
+#### Exemplo {-}
+
+```text
+=MAIÚSCULA(A1)
+```
+
+
+
+### MINÚSCULA {-}
+
+Transforma o texto em letras minúsculas.
+
+#### Exemplo {-}
+
+```text
+=MINÚSCULA(A1)
+```
+
+
+
+### NÚM.CARACT {-}
+
+Conta quantos caracteres existem em um texto.
+
+#### Exemplo {-}
+
+```text
+=NÚM.CARACT(A1)
+```
+
+
+
+## Funções de Data
+
+As funções de data são fundamentais em atividades administrativas.
+
+
+
+### HOJE {-}
+
+Retorna a data atual.
+
+#### Exemplo {-}
+
+```text
+=HOJE()
+```
+
+
+
+### AGORA {-}
+
+Retorna data e hora atuais.
+
+#### Exemplo {-}
+
+```text
+=AGORA()
+```
+
+
+
+### DIAS {-}
+
+Calcula diferença entre datas.
+
+#### Exemplo {-}
+
+```text
+=DIAS(B1;A1)
+```
+
+## Funções Estatísticas
+
+### CONT.SE {-}
+
+Conta valores que atendem a uma condição.
+
+#### Exemplo {-}
+
+```text
+=CONT.SE(A1:A20;">=7")
+```
+
+
+### SOMASE {-}
+
+Soma valores que atendem a um critério.
+
+#### Exemplo {-}
+
+```text
+=SOMASE(B1:B20;"Marketing";C1:C20)
+```
+
+
+
+### SOMASES {-}
+
+Permite múltiplos critérios.
+
+#### Exemplo {-}
+
+```text
+=SOMASES(C1:C100;A1:A100;"Janeiro";B1:B100;"Vendas")
+```
+
+
+
+
+## Fórmulas Avançadas
+
+### FILTRO {-}
+
+Retorna apenas linhas que atendem a critérios específicos.
+
+#### Exemplo {-}
+
+```text
+=FILTRO(A2:C20;B2:B20="Aprovado")
+```
+
+
+### ÚNICO {-}
+
+Remove duplicidades.
+
+#### Exemplo {-}
+
+```text
+=ÚNICO(A2:A50)
+```
+
+
+### ARRAYFORMULA {-}
+
+Permite aplicar fórmulas automaticamente em várias linhas.
+
+#### Exemplo {-}
+
+```text
+=ARRAYFORMULA(A2:A20*B2:B20)
+```
+
+
+## Boas práticas no uso de fórmulas
+
+### Organizar os dados {-}
+
+- Evitar células vazias no meio das tabelas
+- Utilizar cabeçalhos claros
+- Manter padrões de preenchimento
+
+
+### Evitar fórmulas excessivamente complexas {-}
+
+Prefira:
+
+- Dividir cálculos em etapas
+- Utilizar funções auxiliares
+- Nomear corretamente as abas
+
+
+### Validar os resultados {-}
+
+Sempre confira:
+
+- Intervalos utilizados
+- Critérios aplicados
+- Formatação das células
+
+
+
+## Aplicações no ambiente organizacional
+
+As fórmulas do Google Planilhas podem ser utilizadas para:
+
+- Controle financeiro
+- Gestão de estoque
+- Controle acadêmico
+- Relatórios administrativos
+- Organização de projetos
+- Dashboards
+- Controle de presença
+- Análise de vendas
+
+
+
+## Integração e colaboração
+
+O Google Planilhas possui forte integração com:
+
+- Google Drive
+- Google Forms
+- Google Classroom
+
+Além disso, permite:
+
+- edição colaborativa em tempo real;
+- histórico de revisões;
+- compartilhamento por permissões;
+- automação com Apps Script.
+
+
+
+## Atividade Prática
+
+### Objetivo {-}
+
+Aplicar fórmulas e funções em uma planilha organizacional.
+
+
+
+### Descrição {-}
+
+Crie uma planilha contendo:
+
+#### Aba 1 — Controle de vendas {-}
+
+Campos:
+
+- Produto
+- Categoria
+- Quantidade
+- Valor unitário
+- Valor total
+
+Utilize:
+
+- `SOMA`
+- `MÉDIA`
+- `SE`
+- `SOMASE`
+
+
+
+#### Aba 2 — Controle acadêmico {-}
+
+Campos:
+
+- Nome
+- Nota 1
+- Nota 2
+- Média
+- Situação
+
+Utilize:
+
+- `MÉDIA`
+- `SE`
+- `CONT.SE`
+
+
+
+#### Aba 3 — Dashboard simples {-}
+
+Apresente:
+
+- total de vendas;
+- média das notas;
+- quantidade de aprovados;
+- gráfico simples.
+
+
+
+## Considerações Finais
+
+As fórmulas e funções do Google Planilhas são ferramentas fundamentais para automação e análise de dados em ambientes acadêmicos e organizacionais.
+
+O domínio dessas funções permite:
+
+- maior produtividade;
+- redução de erros;
+- melhor tomada de decisão;
+- automatização de processos.
+
+
+## Referências
+
