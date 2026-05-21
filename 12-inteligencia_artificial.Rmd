@@ -643,4 +643,4 @@ Arquitetura simplificada de redes neurais artificiais.
 ## Figura 5
 Exemplos organizacionais de aplicação de IA.
 -->
-# Referências
+## Referências
