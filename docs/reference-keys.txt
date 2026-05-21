@@ -239,3 +239,16 @@ estratégias-para-melhorar-prompts
 atividade-prática-comparando-prompts
 interação-prática-com-ia-generativa
 referências-3
+projeto-final
+objetivos-da-atividade
+tema-do-projeto
+problemas-possíveis
+tecnologias-e-ferramentas-esperadas
+requisitos-mínimos-do-projeto
+estrutura-esperada-do-relatório
+entregas-obrigatórias
+critérios-de-avaliação
+critério-principal-de-avaliação
+recomendações-importantes
+sugestões-de-ferramentas
+considerações-finais-3

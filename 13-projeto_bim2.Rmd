@@ -1,0 +1,363 @@
+# Projeto Final
+
+## Objetivos da atividade
+
+O presente projeto tem como objetivo aplicar, de maneira prática e
+integrada, os conteúdos desenvolvidos ao longo da disciplina de
+Tecnologia e Inovação. A proposta consiste na identificação de um
+problema real relacionado à gestão acadêmica, administrativa ou
+organizacional do ambiente universitário, seguido do desenvolvimento de
+uma solução tecnológica viável utilizando ferramentas digitais estudadas
+durante a disciplina.
+
+A atividade busca aproximar os estudantes de situações reais enfrentadas
+em ambientes organizacionais, estimulando:
+
+-   análise crítica;
+-   identificação de problemas;
+-   pensamento estratégico;
+-   organização de processos;
+-   transformação digital;
+-   uso prático de tecnologias;
+-   inovação aplicada à gestão.
+
+Além disso, o projeto procura desenvolver competências relacionadas à: -
+gestão da informação; - automação de processos; - comunicação
+organizacional; - colaboração digital; - uso estratégico da Inteligência
+Artificial; - documentação técnica de soluções.
+
+## Tema do projeto
+
+Cada grupo deverá identificar um problema de gestão relacionado ao
+cotidiano do:
+
+-   departamentos;
+-   coordenações;
+-   secretarias;
+-   laboratórios;
+-   espaços acadêmicos;
+-   vida estudantil;
+-   organização documental;
+-   comunicação institucional;
+-   gestão de eventos;
+-   reservas de ambientes;
+-   fluxo de informações;
+-   atendimento;
+-   organização administrativa.
+
+A partir do problema identificado, o grupo deverá propor e implementar
+uma solução tecnológica funcional utilizando ferramentas digitais e
+conceitos abordados durante a disciplina.
+
+## Problemas possíveis
+
+Os grupos poderão trabalhar com problemas relacionados a:
+
+-   reserva de salas;
+-   empréstimo de equipamentos;
+-   organização de documentos;
+-   comunicação entre coordenação e alunos;
+-   controle de eventos;
+-   gerenciamento de atas;
+-   acompanhamento de reuniões;
+-   organização de horários;
+-   formulários administrativos;
+-   controle de solicitações;
+-   acompanhamento de projetos;
+-   organização de TCCs;
+-   gestão de informações acadêmicas;
+-   atendimento automatizado;
+-   centralização de informações institucionais.
+
+O grupo poderá propor outros temas, desde que relacionados ao contexto
+organizacional do CESA.
+
+## Tecnologias e ferramentas esperadas
+
+A solução proposta deverá utilizar uma ou mais ferramentas e conceitos
+estudados na disciplina, tais como:
+
+### Ferramentas de produtividade {.unnumbered}
+
+-   planilhas eletrônicas;
+-   dashboards;
+-   relatórios automatizados;
+-   formulários digitais;
+-   calendários compartilhados;
+-   ferramentas colaborativas.
+
+### Computação em nuvem {.unnumbered}
+
+-   armazenamento compartilhado;
+-   documentos colaborativos;
+-   sistemas online;
+-   sincronização de dados.
+
+### Automação de processos {.unnumbered}
+
+-   envio automático de e-mails;
+-   atualização automática de informações;
+-   integração entre formulários e planilhas;
+-   notificações automáticas;
+-   organização automática de dados.
+
+### Gerenciamento de projetos {.unnumbered}
+
+-   Trello;
+-   Notion;
+-   Asana;
+-   Microsoft Planner;
+-   ferramentas Kanban.
+
+### Inteligência Artificial {.unnumbered}
+
+-   geração automática de textos;
+-   assistentes virtuais;
+-   chatbots;
+-   análise de informações;
+-   geração de relatórios;
+-   automação baseada em IA;
+-   engenharia de prompts;
+-   IA generativa aplicada à gestão.
+
+## Requisitos mínimos do projeto
+
+O projeto deverá conter obrigatoriamente:
+
+### Identificação de um problema real {.unnumbered}
+
+O grupo deve descrever claramente: - o problema identificado; - quem é
+afetado; - quais dificuldades existem atualmente; - quais impactos o
+problema gera.
+
+### Mapeamento do processo atual {.unnumbered}
+
+O grupo deverá apresentar: - descrição do funcionamento atual; - fluxo
+de informações; - possíveis gargalos; - limitações existentes.
+
+Recomenda-se utilizar: - fluxogramas; - diagramas; - mapas de
+processo; - tabelas organizacionais.
+
+### Proposta de solução tecnológica {.unnumbered}
+
+A solução deverá: - ser funcional; - possuir aplicabilidade real; -
+demonstrar integração entre tecnologias; - apresentar benefícios
+organizacionais claros.
+
+### Implementação prática {.unnumbered}
+
+O grupo deverá entregar uma solução implementada e funcional, podendo
+incluir:
+
+-   formulários digitais;
+
+-   planilhas automatizadas;
+
+-   dashboards;
+
+-   sistemas organizacionais;
+
+-   modelos de automação;
+
+-   protótipos navegáveis;
+
+-   agentes de IA; - assistentes automatizados; - sistemas de
+    gerenciamento.
+
+### Documentação detalhada {.unnumbered}
+
+O relatório deverá conter:
+
+1.  explicação do funcionamento;
+
+2.  tecnologias utilizadas;
+
+3.  instruções de uso;
+
+4.  limitações;
+
+5.  possíveis melhorias futuras.
+
+## Estrutura esperada do relatório
+
+O relatório deverá conter, no mínimo, os seguintes tópicos:
+
+### Introdução {.unnumbered}
+
+Apresentação do problema e contextualização.
+
+### Descrição do problema {.unnumbered}
+
+Detalhamento do cenário atual e dos impactos observados.
+
+### Objetivos {.unnumbered}
+
+Descrição dos objetivos gerais e específicos da solução.
+
+### Fundamentação tecnológica {.unnumbered}
+
+Descrição das tecnologias utilizadas no projeto.
+
+### Desenvolvimento da solução {.unnumbered}
+
+Explicação detalhada:
+
+-   do funcionamento;
+
+-   das ferramentas utilizadas;
+
+-   das integrações;
+
+-   das automações implementadas.
+
+### Resultados esperados {.unnumbered}
+
+Descrição dos benefícios esperados:
+
+1.  melhoria organizacional;
+
+2.  redução de retrabalho;
+
+3.  centralização de informações;
+
+4.  melhoria da comunicação;
+
+5.  otimização de processos.
+
+### Manual de utilização {.unnumbered}
+
+Instruções detalhadas para utilização da solução.
+
+### Considerações finais {.unnumbered}
+
+Reflexões sobre:
+
+-   viabilidade;
+
+-   limitações;
+
+-   impactos organizacionais;
+
+-   possibilidades futuras.
+
+## Entregas obrigatórias
+
+Cada grupo deverá entregar:
+
+### Relatório em PDF {.unnumbered}
+
+Documento contendo toda a descrição técnica e organizacional do projeto.
+
+### Solução funcional {.unnumbered}
+
+A solução deverá estar operacional e acessível ao professor.
+
+Exemplos:
+
+-   links de formulários;
+
+-   planilhas compartilhadas;
+
+-   dashboards;
+
+-   sistemas;
+
+-   protótipos;
+
+-   automações;
+
+-   plataformas utilizadas.
+
+### Manual de uso {.unnumbered}
+
+Documento ou seção do relatório contendo instruções detalhadas de
+utilização.
+
+### Apresentação final {.unnumbered}
+
+Apresentação demonstrando:
+
+-   problema identificado;
+
+-   solução proposta;
+
+-   demonstração prática do funcionamento.
+
+## Critérios de avaliação
+
+| Critério                              | Peso |
+|---------------------------------------|------|
+| Identificação e análise do problema   | 15   |
+| Viabilidade real da solução           | 25   |
+| Completude da solução implementada    | 25   |
+| Integração das tecnologias estudadas  | 15   |
+| Qualidade da documentação             | 10   |
+| Organização e apresentação do projeto | 10   |
+
+## Critério principal de avaliação
+
+O principal parâmetro de avaliação será:
+
+> A viabilidade real e a completude da solução desenvolvida.
+
+Ou seja, projetos que demonstrem: - aplicabilidade prática; -
+funcionamento consistente; - organização adequada; - integração
+tecnológica; - utilidade organizacional;
+
+receberão maior pontuação.
+
+## Recomendações importantes
+
+### Evite soluções excessivamente teóricas {.unnumbered}
+
+O projeto deve apresentar implementação prática e funcional.
+
+### Pense como uma consultoria tecnológica {.unnumbered}
+
+O grupo deverá analisar um problema organizacional real e propor uma
+solução aplicável.
+
+### Priorize clareza e usabilidade {.unnumbered}
+
+A solução deve ser compreensível e utilizável por terceiros.
+
+### Utilize tecnologias adequadas ao problema {.unnumbered}
+
+Não é necessário utilizar ferramentas complexas sem necessidade.
+
+## Sugestões de ferramentas
+
+### Organização e gerenciamento {.unnumbered}
+
+-   [Trello](https://trello.com)
+-   [Notion](https://www.notion.so)
+-   [Asana](https://asana.com)
+
+### Formulários e planilhas {.unnumbered}
+
+-   [Google Forms](https://docs.google.com/forms)
+-   [Google Sheets](https://www.google.com/sheets/about/)
+-   [Microsoft
+    Forms](https://www.microsoft.com/pt-br/microsoft-365/online-surveys-polls-quizzes)
+
+### Inteligência Artificial {.unnumbered}
+
+-   [ChatGPT](https://chatgpt.com)
+-   [Gemini](https://gemini.google.com)
+-   [Microsoft Copilot](https://copilot.microsoft.com)
+
+### Automação {.unnumbered}
+
+-   [Zapier](https://zapier.com)
+-   [Make](https://www.make.com)
+-   [Power
+    Automate](https://www.microsoft.com/pt-br/power-platform/products/power-automate)
+
+## Considerações finais
+
+O projeto final representa uma oportunidade para aplicar os
+conhecimentos desenvolvidos na disciplina em um contexto organizacional
+real. Mais do que utilizar ferramentas tecnológicas, espera-se que os
+grupos desenvolvam soluções capazes de melhorar processos, otimizar
+rotinas e apoiar a transformação digital do ambiente acadêmico e
+administrativo.
