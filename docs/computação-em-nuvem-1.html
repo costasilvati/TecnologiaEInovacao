@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capítulo 6 Gestão de Mudanças em Processos Organizacionais | Tecnologia e Inovação</title>
+  <title>Capítulo 11 Computação em Nuvem | Tecnologia e Inovação</title>
   <meta name="description" content="Compilado de conteúdos utilizados na disciplina de Tecnologia e Inovação." />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capítulo 6 Gestão de Mudanças em Processos Organizacionais | Tecnologia e Inovação" />
+  <meta property="og:title" content="Capítulo 11 Computação em Nuvem | Tecnologia e Inovação" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Compilado de conteúdos utilizados na disciplina de Tecnologia e Inovação." />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capítulo 6 Gestão de Mudanças em Processos Organizacionais | Tecnologia e Inovação" />
+  <meta name="twitter:title" content="Capítulo 11 Computação em Nuvem | Tecnologia e Inovação" />
   
   <meta name="twitter:description" content="Compilado de conteúdos utilizados na disciplina de Tecnologia e Inovação." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="atividade.html"/>
-<link rel="next" href="planilhas---parte-2.html"/>
+<link rel="prev" href="projeto-final.html"/>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -685,301 +685,409 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="gestão-de-mudanças-em-processos-organizacionais" class="section level1 hasAnchor" number="6">
-<h1><span class="header-section-number">Capítulo 6</span> Gestão de Mudanças em Processos Organizacionais<a href="gestão-de-mudanças-em-processos-organizacionais.html#gest%C3%A3o-de-mudan%C3%A7as-em-processos-organizacionais" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="introdução-3" class="section level2 hasAnchor" number="6.1">
-<h2><span class="header-section-number">6.1</span> Introdução<a href="gestão-de-mudanças-em-processos-organizacionais.html#introdu%C3%A7%C3%A3o-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A gestão de mudanças organizacionais é um tema central no contexto contemporâneo, especialmente diante da crescente digitalização dos processos e da necessidade de adaptação contínua das organizações. Mudanças não são eventos isolados, mas processos estruturados que envolvem múltiplas dimensões organizacionais.</p>
-<p>Nesta aula, retomamos as principais ideias discutidas nas apresentações dos alunos, articulando três perspectivas complementares:</p>
-<ul>
-<li>A transformação digital como contexto da mudança<br />
-</li>
-<li>Os modelos estruturados de gestão da mudança<br />
-</li>
-<li>A aplicação prática da mudança nas organizações</li>
-</ul>
-<hr />
+<div id="computação-em-nuvem-1" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">Capítulo 11</span> Computação em Nuvem<a href="computação-em-nuvem-1.html#computa%C3%A7%C3%A3o-em-nuvem-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>A computação em nuvem, ou <em>cloud computing</em>, é um modelo de uso de recursos computacionais no qual armazenamento, processamento, redes, bancos de dados, plataformas e softwares são disponibilizados pela Internet como serviços. Em vez de comprar servidores físicos, instalar sistemas em uma infraestrutura local e manter equipes dedicadas para administrar todo esse ambiente, a organização passa a acessar recursos computacionais sob demanda, pagando de acordo com o uso ou conforme planos contratados <span class="citation">(<a href="#ref-google_cloud_computing">Google Cloud 2026</a>; <a href="#ref-ibm_cloud_computing">IBM 2026</a>)</span>.</p>
+<p>De forma simplificada, a computação em nuvem permite que empresas, instituições e usuários utilizem recursos de TI como se estivessem alugando capacidade computacional de um provedor especializado. Esses recursos ficam hospedados em data centers distribuídos geograficamente e são acessados por meio da Internet. Assim, uma empresa pode criar uma aplicação, armazenar grandes volumes de dados, executar análises ou disponibilizar sistemas corporativos sem precisar adquirir e manter toda a infraestrutura física necessária.</p>
+<p>A ideia central da nuvem não é apenas “usar computadores de outra pessoa”, mas mudar a forma como a computação é planejada, contratada, escalada e gerenciada. Em ambientes tradicionais, a organização precisa prever sua demanda futura e comprar infraestrutura suficiente para suportá-la. Na nuvem, os recursos podem ser aumentados ou reduzidos conforme a necessidade, o que torna o modelo mais flexível para negócios sujeitos a variações de demanda.</p>
+<p><a href="https://aws.amazon.com/pt/blogs/aws-brasil/como-iniciar-a-sua-jornada-na-nuvem-aws/"><img src="fig/aula14/1.png" alt="Comparação simplificada entre os diferentes modelos: centralizado, distribuído e nuvem. Fonte: [@Counto2026]" /></a></p>
+<div id="infraestrutura-tradicional-e-infraestrutura-em-nuvem" class="section level2 hasAnchor" number="11.1">
+<h2><span class="header-section-number">11.1</span> Infraestrutura tradicional e infraestrutura em nuvem<a href="computação-em-nuvem-1.html#infraestrutura-tradicional-e-infraestrutura-em-nuvem" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Antes da popularização da computação em nuvem, era comum que as organizações mantivessem seus próprios servidores, equipamentos de rede, sistemas de armazenamento, salas climatizadas, políticas de backup e equipes técnicas internas. Esse modelo é chamado de infraestrutura local, infraestrutura própria ou <em>on-premise</em>.</p>
+<p>Nesse modelo, a empresa possui maior controle direto sobre os equipamentos, mas também assume todos os custos e responsabilidades relacionados à aquisição, manutenção, atualização, segurança física, energia, refrigeração, substituição de equipamentos e disponibilidade dos serviços. Além disso, muitas vezes os recursos adquiridos ficam subutilizados. Por exemplo, uma empresa pode comprar servidores dimensionados para períodos de pico, mas utilizá-los pouco na maior parte do tempo.</p>
+<p>A computação em nuvem altera essa lógica. O provedor de nuvem mantém grandes data centers com servidores, sistemas de armazenamento, redes de alta velocidade, mecanismos de segurança e plataformas de gerenciamento. A empresa cliente acessa esses recursos como serviço. Assim, o investimento inicial em infraestrutura tende a ser substituído por um modelo de pagamento recorrente ou por uso.</p>
+<p>Essa mudança também altera a forma como os projetos de tecnologia são desenvolvidos. Em vez de esperar semanas ou meses pela compra e instalação de servidores, uma equipe pode criar uma máquina virtual, um banco de dados ou um ambiente de desenvolvimento em poucos minutos. Isso acelera testes, desenvolvimento de aplicações, experimentação e implantação de soluções digitais.</p>
 </div>
-<div id="transformação-digital-como-motor-da-mudança" class="section level2 hasAnchor" number="6.2">
-<h2><span class="header-section-number">6.2</span> Transformação Digital como Motor da Mudança<a href="gestão-de-mudanças-em-processos-organizacionais.html#transforma%C3%A7%C3%A3o-digital-como-motor-da-mudan%C3%A7a" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A transformação digital tem sido um dos principais vetores de mudança nas organizações modernas. No entanto, conforme discutido por Vial <span class="citation">(<a href="#ref-vial2019">Vial 2019</a>)</span>, esse processo vai além da simples adoção de tecnologias.</p>
-<p>Segundo o autor:</p>
-<blockquote>
-<p>A transformação digital envolve mudanças profundas na forma como as organizações operam, criam valor e interagem com seus stakeholders.</p>
-</blockquote>
-<p>Nesse sentido, a transformação digital pode ser compreendida como um fenômeno que integra:</p>
-<ul>
-<li>Tecnologias digitais<br />
-</li>
-<li>Processos organizacionais<br />
-</li>
-<li>Estruturas de negócio<br />
-</li>
-<li>Cultura organizacional</li>
-</ul>
-<div id="dimensões-da-transformação-digital" class="section level3 hasAnchor" number="6.2.1">
-<h3><span class="header-section-number">6.2.1</span> Dimensões da transformação digital<a href="gestão-de-mudanças-em-processos-organizacionais.html#dimens%C3%B5es-da-transforma%C3%A7%C3%A3o-digital" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>De acordo com <span class="citation">(<a href="#ref-vial2019">Vial 2019</a>)</span>, a transformação digital impacta:</p>
-<ul>
-<li>Modelos de negócio<br />
-</li>
-<li>Experiência do cliente<br />
-</li>
-<li>Eficiência operacional<br />
-</li>
-<li>Estrutura organizacional</li>
-</ul>
-<p>Um ponto crítico destacado na literatura é que:</p>
-<blockquote>
-<p>A tecnologia, isoladamente, não promove transformação — ela precisa estar alinhada a mudanças organizacionais estruturadas.</p>
-</blockquote>
-<hr />
-</div>
-</div>
-<div id="modelos-de-gestão-de-mudança" class="section level2 hasAnchor" number="6.3">
-<h2><span class="header-section-number">6.3</span> Modelos de Gestão de Mudança<a href="gestão-de-mudanças-em-processos-organizacionais.html#modelos-de-gest%C3%A3o-de-mudan%C3%A7a" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A gestão da mudança exige abordagem sistemática. Um dos modelos mais consolidados é o de Kotter <span class="citation">(<a href="#ref-kotter2007leading">Kotter 2007</a>)</span>, que propõe uma sequência de etapas para implementação eficaz de mudanças organizacionais.</p>
-<div id="etapas-do-processo-de-mudança" class="section level3 hasAnchor" number="6.3.1">
-<h3><span class="header-section-number">6.3.1</span> Etapas do processo de mudança<a href="gestão-de-mudanças-em-processos-organizacionais.html#etapas-do-processo-de-mudan%C3%A7a" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Segundo <span class="citation">(<a href="#ref-kotter2007leading">Kotter 2007</a>)</span>, a mudança organizacional deve seguir:</p>
+<div id="como-a-computação-em-nuvem-funciona" class="section level2 hasAnchor" number="11.2">
+<h2><span class="header-section-number">11.2</span> Como a computação em nuvem funciona<a href="computação-em-nuvem-1.html#como-a-computa%C3%A7%C3%A3o-em-nuvem-funciona" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A computação em nuvem funciona por meio da combinação de vários elementos tecnológicos: data centers, virtualização, redes, armazenamento distribuído, automação, monitoramento e sistemas de cobrança por uso.</p>
+<p>Os data centers são instalações físicas que concentram servidores, equipamentos de rede, sistemas de energia, climatização e segurança. Os grandes provedores de nuvem, como Google Cloud, Amazon Web Services, Microsoft Azure e IBM Cloud, operam data centers em diferentes regiões do mundo. Essa distribuição geográfica permite maior disponibilidade, menor latência e possibilidade de atender exigências legais ou regulatórias sobre localização dos dados.</p>
+<p>A virtualização é uma das bases da computação em nuvem. Por meio dela, um servidor físico pode ser dividido em várias máquinas virtuais, cada uma funcionando como se fosse um computador independente. Isso permite melhor aproveitamento dos recursos físicos e facilita a criação, remoção e redimensionamento de ambientes computacionais.</p>
+<p>Além das máquinas virtuais, a nuvem também utiliza contêineres, orquestração, armazenamento de objetos, bancos de dados gerenciados, redes virtuais e serviços sem servidor (<em>serverless</em>). Esses componentes permitem que aplicações sejam construídas de forma mais flexível, escalável e automatizada.</p>
+<p>De forma geral, o funcionamento da nuvem pode ser entendido em quatro etapas:</p>
 <ol style="list-style-type: decimal">
-<li>Estabelecer senso de urgência<br />
-</li>
-<li>Formar uma coalizão forte<br />
-</li>
-<li>Desenvolver uma visão estratégica<br />
-</li>
-<li>Comunicar a visão<br />
-</li>
-<li>Remover barreiras<br />
-</li>
-<li>Gerar ganhos de curto prazo<br />
-</li>
-<li>Consolidar os avanços<br />
-</li>
-<li>Institucionalizar a mudança</li>
+<li>O usuário ou a empresa acessa uma plataforma de nuvem pela Internet.</li>
+<li>A plataforma permite selecionar recursos, como servidores, armazenamento, bancos de dados ou aplicações.</li>
+<li>O provedor aloca esses recursos em sua infraestrutura física.</li>
+<li>O cliente utiliza os serviços contratados e paga conforme o modelo de cobrança definido.</li>
 </ol>
-<p>Esse modelo destaca que a mudança:</p>
+</div>
+<div id="características-principais-da-computação-em-nuvem" class="section level2 hasAnchor" number="11.3">
+<h2><span class="header-section-number">11.3</span> Características principais da computação em nuvem<a href="computação-em-nuvem-1.html#caracter%C3%ADsticas-principais-da-computa%C3%A7%C3%A3o-em-nuvem" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A computação em nuvem possui algumas características que a diferenciam dos modelos tradicionais de infraestrutura.</p>
+<div id="serviço-sob-demanda" class="section level3 hasAnchor" number="11.3.1">
+<h3><span class="header-section-number">11.3.1</span> Serviço sob demanda<a href="computação-em-nuvem-1.html#servi%C3%A7o-sob-demanda" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Os recursos podem ser provisionados quando necessário. Uma empresa pode criar uma máquina virtual, contratar armazenamento adicional ou disponibilizar um banco de dados sem precisar adquirir novos equipamentos físicos.</p>
+</div>
+<div id="acesso-amplo-pela-rede" class="section level3 hasAnchor" number="11.3.2">
+<h3><span class="header-section-number">11.3.2</span> Acesso amplo pela rede<a href="computação-em-nuvem-1.html#acesso-amplo-pela-rede" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Os serviços são acessados pela Internet ou por redes privadas. Isso permite que equipes distribuídas geograficamente utilizem os mesmos sistemas, dados e aplicações.</p>
+</div>
+<div id="compartilhamento-de-recursos" class="section level3 hasAnchor" number="11.3.3">
+<h3><span class="header-section-number">11.3.3</span> Compartilhamento de recursos<a href="computação-em-nuvem-1.html#compartilhamento-de-recursos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Os provedores de nuvem utilizam infraestrutura compartilhada entre diferentes clientes. Embora os recursos físicos possam ser compartilhados, mecanismos de isolamento lógico garantem que os dados e aplicações de cada cliente permaneçam separados.</p>
+</div>
+<div id="elasticidade" class="section level3 hasAnchor" number="11.3.4">
+<h3><span class="header-section-number">11.3.4</span> Elasticidade<a href="computação-em-nuvem-1.html#elasticidade" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Elasticidade é a capacidade de aumentar ou reduzir recursos conforme a demanda. Por exemplo, um sistema de vendas pode precisar de mais capacidade durante datas promocionais e retornar a uma configuração menor após o pico de acesso.</p>
+</div>
+<div id="pagamento-pelo-uso" class="section level3 hasAnchor" number="11.3.5">
+<h3><span class="header-section-number">11.3.5</span> Pagamento pelo uso<a href="computação-em-nuvem-1.html#pagamento-pelo-uso" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Muitos serviços em nuvem seguem o modelo <em>pay-as-you-go</em>, isto é, pagamento conforme o uso. Isso significa que a organização paga pelos recursos efetivamente utilizados, como tempo de processamento, volume de armazenamento, transferência de dados ou quantidade de requisições.</p>
+</div>
+</div>
+<div id="modelos-de-serviço-em-nuvem" class="section level2 hasAnchor" number="11.4">
+<h2><span class="header-section-number">11.4</span> Modelos de serviço em nuvem<a href="computação-em-nuvem-1.html#modelos-de-servi%C3%A7o-em-nuvem" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Os modelos de serviço indicam o nível de responsabilidade do provedor e do cliente. Os três modelos clássicos são IaaS, PaaS e SaaS <span class="citation">(<a href="#ref-google_cloud_computing">Google Cloud 2026</a>; <a href="#ref-ibm_cloud_computing">IBM 2026</a>)</span>.</p>
+<p><a href="https://www.linkedin.com/pulse/voc%C3%AAs-sabem-diferen%C3%A7a-entre-iaas-paas-e-saas-walaks-silva-seiff/"><img src="fig/aula14/2.png" alt="Comparando IaaS, PaaS e SaaS." /></a>.</p>
+<div id="iaas-infraestrutura-como-serviço" class="section level3 hasAnchor" number="11.4.1">
+<h3><span class="header-section-number">11.4.1</span> IaaS: Infraestrutura como Serviço<a href="computação-em-nuvem-1.html#iaas-infraestrutura-como-servi%C3%A7o" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>IaaS significa <em>Infrastructure as a Service</em>, ou Infraestrutura como Serviço. Nesse modelo, o provedor oferece recursos básicos de infraestrutura, como máquinas virtuais, armazenamento, redes, balanceadores de carga e firewalls.</p>
+<p>O cliente não precisa comprar servidores físicos, mas ainda é responsável por instalar e administrar sistemas operacionais, bibliotecas, aplicações e configurações de segurança. É o modelo que oferece maior controle técnico entre os três principais modelos de serviço.</p>
+<p>Exemplos de uso de IaaS incluem:</p>
 <ul>
-<li>Não é imediata<br />
-</li>
-<li>Requer planejamento contínuo<br />
-</li>
-<li>Depende fortemente da liderança</li>
+<li>criação de servidores virtuais;</li>
+<li>hospedagem de aplicações;</li>
+<li>ambientes de teste e desenvolvimento;</li>
+<li>armazenamento de arquivos;</li>
+<li>recuperação de desastres;</li>
+<li>substituição parcial de data centers locais.</li>
 </ul>
-<blockquote>
-<p>Processos de mudança falham quando etapas são ignoradas ou executadas de forma superficial <span class="citation">(<a href="#ref-kotter2007leading">Kotter 2007</a>)</span>.</p>
-</blockquote>
-<hr />
+<p>Um exemplo prático seria uma empresa criar uma máquina virtual Linux na nuvem para hospedar uma API ou um sistema Web. O provedor mantém a infraestrutura física, mas a equipe técnica da empresa configura o sistema operacional, instala dependências e publica a aplicação.</p>
 </div>
-</div>
-<div id="gestão-de-mudanças-na-prática-organizacional" class="section level2 hasAnchor" number="6.4">
-<h2><span class="header-section-number">6.4</span> Gestão de Mudanças na Prática Organizacional<a href="gestão-de-mudanças-em-processos-organizacionais.html#gest%C3%A3o-de-mudan%C3%A7as-na-pr%C3%A1tica-organizacional" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A abordagem prática da gestão de mudanças é explorada por Muniz <span class="citation">(<a href="#ref-muniz2025">Muniz et al. 2025</a>)</span>, que enfatiza a aplicação dos conceitos no cotidiano das organizações.</p>
-<p>Segundo a autora:</p>
-<blockquote>
-<p>A gestão de mudanças deve ser compreendida como uma prática contínua, integrada à estratégia organizacional.</p>
-</blockquote>
-<div id="elementos-fundamentais-da-gestão-prática" class="section level3 hasAnchor" number="6.4.1">
-<h3><span class="header-section-number">6.4.1</span> Elementos fundamentais da gestão prática<a href="gestão-de-mudanças-em-processos-organizacionais.html#elementos-fundamentais-da-gest%C3%A3o-pr%C3%A1tica" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Com base em <span class="citation">(<a href="#ref-muniz2025">Muniz et al. 2025</a>)</span>, destacam-se:</p>
+<div id="paas-plataforma-como-serviço" class="section level3 hasAnchor" number="11.4.2">
+<h3><span class="header-section-number">11.4.2</span> PaaS: Plataforma como Serviço<a href="computação-em-nuvem-1.html#paas-plataforma-como-servi%C3%A7o" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>PaaS significa <em>Platform as a Service</em>, ou Plataforma como Serviço. Nesse modelo, o provedor oferece um ambiente pronto para desenvolvimento, execução e implantação de aplicações. O cliente não precisa administrar servidores, sistemas operacionais ou parte significativa da infraestrutura.</p>
+<p>A equipe de desenvolvimento se concentra mais no código da aplicação e menos na configuração do ambiente. O provedor gerencia recursos como sistema operacional, servidor de aplicação, escalabilidade, atualizações e parte da segurança.</p>
+<p>Exemplos de uso de PaaS incluem:</p>
 <ul>
-<li>Planejamento estruturado<br />
-</li>
-<li>Comunicação clara<br />
-</li>
-<li>Envolvimento das equipes<br />
-</li>
-<li>Monitoramento dos resultados<br />
-</li>
-<li>Adaptação contínua</li>
+<li>implantação de aplicações Web;</li>
+<li>desenvolvimento de APIs;</li>
+<li>ambientes de teste;</li>
+<li>integração contínua;</li>
+<li>hospedagem de aplicações em contêineres;</li>
+<li>uso de bancos de dados gerenciados.</li>
 </ul>
-<p>Além disso, a autora enfatiza que:</p>
-<blockquote>
-<p>A resistência à mudança é um comportamento natural e deve ser gerenciada, não eliminada.</p>
-</blockquote>
-<hr />
+<p>Um exemplo seria uma equipe publicar uma aplicação Node.js, Java, Python ou PHP em uma plataforma de nuvem sem precisar configurar manualmente o servidor. A plataforma cuida de parte da execução, escalabilidade e disponibilidade.</p>
 </div>
-</div>
-<div id="fatores-críticos-de-sucesso" class="section level2 hasAnchor" number="6.5">
-<h2><span class="header-section-number">6.5</span> Fatores Críticos de Sucesso<a href="gestão-de-mudanças-em-processos-organizacionais.html#fatores-cr%C3%ADticos-de-sucesso" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A partir da integração das três leituras, é possível identificar fatores críticos para o sucesso da gestão de mudanças.</p>
-<div id="fatores-estratégicos" class="section level3 hasAnchor" number="6.5.1">
-<h3><span class="header-section-number">6.5.1</span> Fatores estratégicos<a href="gestão-de-mudanças-em-processos-organizacionais.html#fatores-estrat%C3%A9gicos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="saas-software-como-serviço" class="section level3 hasAnchor" number="11.4.3">
+<h3><span class="header-section-number">11.4.3</span> SaaS: Software como Serviço<a href="computação-em-nuvem-1.html#saas-software-como-servi%C3%A7o" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>SaaS significa <em>Software as a Service</em>, ou Software como Serviço. Nesse modelo, o usuário acessa uma aplicação pronta pela Internet, geralmente por navegador ou aplicativo. O provedor gerencia toda a infraestrutura, a plataforma, a manutenção, as atualizações e a segurança do software.</p>
+<p>Esse é o modelo mais próximo do usuário final. Exemplos comuns incluem sistemas de e-mail, editores de documentos online, plataformas de videoconferência, sistemas de CRM, ferramentas de armazenamento de arquivos e plataformas de colaboração.</p>
+<p>Exemplos de SaaS incluem:</p>
 <ul>
-<li>Alinhamento com objetivos organizacionais<br />
-</li>
-<li>Definição clara de visão<br />
-</li>
-<li>Liderança ativa</li>
+<li>Google Workspace;</li>
+<li>Microsoft 365;</li>
+<li>Dropbox;</li>
+<li>Salesforce;</li>
+<li>Slack;</li>
+<li>sistemas acadêmicos e administrativos acessados via navegador.</li>
 </ul>
+<p>No SaaS, o usuário normalmente não se preocupa com servidores, banco de dados, sistema operacional ou atualizações. Ele apenas acessa e utiliza o software.</p>
 </div>
-<div id="fatores-humanos" class="section level3 hasAnchor" number="6.5.2">
-<h3><span class="header-section-number">6.5.2</span> Fatores humanos<a href="gestão-de-mudanças-em-processos-organizacionais.html#fatores-humanos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="comparação-entre-iaas-paas-e-saas" class="section level2 hasAnchor" number="11.5">
+<h2><span class="header-section-number">11.5</span> Comparação entre IaaS, PaaS e SaaS<a href="computação-em-nuvem-1.html#compara%C3%A7%C3%A3o-entre-iaas-paas-e-saas" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A diferença entre IaaS, PaaS e SaaS está principalmente no nível de controle e responsabilidade.</p>
+<p>No IaaS, o cliente tem mais controle, mas também mais responsabilidades técnicas. No PaaS, o cliente se concentra no desenvolvimento da aplicação, enquanto o provedor administra a plataforma. No SaaS, o cliente utiliza o software pronto, sem gerenciar a infraestrutura.</p>
+<table>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Modelo</th>
+<th>O cliente gerencia</th>
+<th>O provedor gerencia</th>
+<th>Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>IaaS</td>
+<td>Sistema operacional, aplicações, dados e configurações</td>
+<td>Servidores físicos, rede, armazenamento e virtualização</td>
+<td>Máquina virtual na nuvem</td>
+</tr>
+<tr class="even">
+<td>PaaS</td>
+<td>Código, dados e regras da aplicação</td>
+<td>Infraestrutura, sistema operacional e ambiente de execução</td>
+<td>Plataforma para publicar uma API</td>
+</tr>
+<tr class="odd">
+<td>SaaS</td>
+<td>Uso e configuração do software</td>
+<td>Toda a aplicação e infraestrutura</td>
+<td>E-mail corporativo online</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="modelos-de-implantação" class="section level2 hasAnchor" number="11.6">
+<h2><span class="header-section-number">11.6</span> Modelos de implantação<a href="computação-em-nuvem-1.html#modelos-de-implanta%C3%A7%C3%A3o" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Além dos modelos de serviço, a computação em nuvem também pode ser classificada de acordo com o modelo de implantação: nuvem pública, privada, híbrida e multinuvem.</p>
+<div id="nuvem-pública" class="section level3 hasAnchor" number="11.6.1">
+<h3><span class="header-section-number">11.6.1</span> Nuvem pública<a href="computação-em-nuvem-1.html#nuvem-p%C3%BAblica" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Na nuvem pública, os recursos são oferecidos por um provedor externo e acessados pela Internet. A infraestrutura pertence ao provedor, mas é compartilhada entre vários clientes. Esse é o modelo mais comum quando se fala em computação em nuvem.</p>
+<p>A nuvem pública é adequada para empresas que desejam escalabilidade, flexibilidade e redução de investimentos iniciais em infraestrutura. Também é útil para aplicações Web, armazenamento, análise de dados, backup, desenvolvimento de software e serviços digitais.</p>
+</div>
+<div id="nuvem-privada" class="section level3 hasAnchor" number="11.6.2">
+<h3><span class="header-section-number">11.6.2</span> Nuvem privada<a href="computação-em-nuvem-1.html#nuvem-privada" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Na nuvem privada, a infraestrutura é dedicada a uma única organização. Ela pode estar localizada no próprio data center da empresa ou ser hospedada por um provedor externo. A principal característica é o uso exclusivo por uma organização.</p>
+<p>Esse modelo é comum em instituições que possuem requisitos rigorosos de segurança, privacidade, controle ou conformidade regulatória. No entanto, tende a exigir maior investimento e maior esforço de administração.</p>
+</div>
+<div id="nuvem-híbrida" class="section level3 hasAnchor" number="11.6.3">
+<h3><span class="header-section-number">11.6.3</span> Nuvem híbrida<a href="computação-em-nuvem-1.html#nuvem-h%C3%ADbrida" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A nuvem híbrida combina nuvem pública e nuvem privada. Nesse modelo, parte dos sistemas permanece em infraestrutura própria ou privada, enquanto outros serviços são executados em nuvem pública.</p>
+<p>Esse modelo é útil quando uma organização precisa manter determinados dados ou sistemas sob maior controle, mas deseja aproveitar a escalabilidade e os serviços avançados da nuvem pública. Por exemplo, uma empresa pode manter dados sensíveis em ambiente privado e utilizar a nuvem pública para análise de dados ou aplicações de atendimento ao cliente.</p>
+</div>
+<div id="multinuvem" class="section level3 hasAnchor" number="11.6.4">
+<h3><span class="header-section-number">11.6.4</span> Multinuvem<a href="computação-em-nuvem-1.html#multinuvem" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A estratégia multinuvem, ou <em>multi-cloud</em>, consiste no uso de mais de um provedor de nuvem pública. Uma organização pode usar, por exemplo, serviços do Google Cloud, AWS, Microsoft Azure e IBM Cloud ao mesmo tempo.</p>
+<p>Essa estratégia pode reduzir dependência de um único fornecedor, aumentar resiliência e permitir o uso dos melhores serviços de cada provedor. Porém, também aumenta a complexidade de gestão, integração, segurança, monitoramento e controle de custos.</p>
+</div>
+</div>
+<div id="infraestrutura-da-computação-em-nuvem" class="section level2 hasAnchor" number="11.7">
+<h2><span class="header-section-number">11.7</span> Infraestrutura da computação em nuvem<a href="computação-em-nuvem-1.html#infraestrutura-da-computa%C3%A7%C3%A3o-em-nuvem" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A infraestrutura de nuvem é composta por diversos elementos físicos e lógicos. Entre os principais, destacam-se servidores, armazenamento, redes, virtualização, regiões, zonas de disponibilidade e mecanismos de segurança.</p>
+<div id="servidores-e-processamento" class="section level3 hasAnchor" number="11.7.1">
+<h3><span class="header-section-number">11.7.1</span> Servidores e processamento<a href="computação-em-nuvem-1.html#servidores-e-processamento" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Os servidores são responsáveis pelo processamento das aplicações. Na nuvem, esse processamento pode ser oferecido por máquinas virtuais, contêineres, funções serverless ou serviços especializados para inteligência artificial e análise de dados.</p>
+<p>Para aplicações simples, uma máquina virtual pode ser suficiente. Para aplicações maiores, podem ser utilizados clusters de contêineres, balanceadores de carga e escalabilidade automática.</p>
+</div>
+<div id="armazenamento" class="section level3 hasAnchor" number="11.7.2">
+<h3><span class="header-section-number">11.7.2</span> Armazenamento<a href="computação-em-nuvem-1.html#armazenamento" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>O armazenamento em nuvem permite guardar arquivos, bancos de dados, imagens, vídeos, backups e grandes volumes de dados. Existem diferentes tipos de armazenamento, como armazenamento de objetos, armazenamento em blocos e armazenamento de arquivos.</p>
+<p>Também é comum classificar o armazenamento conforme a frequência de acesso:</p>
 <ul>
-<li>Engajamento dos colaboradores<br />
-</li>
-<li>Capacitação contínua<br />
-</li>
-<li>Comunicação eficiente</li>
+<li>armazenamento quente (<em>hot storage</em>): usado para dados acessados frequentemente;</li>
+<li>armazenamento morno (<em>warm storage</em>): usado para dados acessados ocasionalmente;</li>
+<li>armazenamento frio (<em>cold storage</em>): usado para arquivamento e dados raramente acessados.</li>
 </ul>
+<p>Essa classificação influencia o custo. Dados acessados com frequência exigem disponibilidade rápida e tendem a ser mais caros. Dados arquivados podem ter custo menor, mas maior tempo de recuperação.</p>
 </div>
-<div id="fatores-tecnológicos" class="section level3 hasAnchor" number="6.5.3">
-<h3><span class="header-section-number">6.5.3</span> Fatores tecnológicos<a href="gestão-de-mudanças-em-processos-organizacionais.html#fatores-tecnol%C3%B3gicos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="redes" class="section level3 hasAnchor" number="11.7.3">
+<h3><span class="header-section-number">11.7.3</span> Redes<a href="computação-em-nuvem-1.html#redes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>As redes conectam usuários, aplicações, servidores, bancos de dados e serviços. Na nuvem, é possível configurar redes virtuais, sub-redes, endereços IP, regras de firewall, balanceadores de carga e conexões privadas.</p>
+<p>O tráfego de rede também pode impactar custos, especialmente quando há transferência de grandes volumes de dados para fora da nuvem ou entre regiões diferentes.</p>
+</div>
+<div id="regiões-e-zonas-de-disponibilidade" class="section level3 hasAnchor" number="11.7.4">
+<h3><span class="header-section-number">11.7.4</span> Regiões e zonas de disponibilidade<a href="computação-em-nuvem-1.html#regi%C3%B5es-e-zonas-de-disponibilidade" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Os provedores de nuvem organizam sua infraestrutura em regiões geográficas e zonas de disponibilidade. Uma região corresponde a uma área geográfica, como um país ou continente. Uma zona de disponibilidade é um conjunto isolado de data centers dentro de uma região.</p>
+<p>Essa organização permite criar aplicações mais resilientes. Se uma zona apresentar falha, outra zona pode continuar atendendo os usuários. Sistemas críticos costumam ser distribuídos entre múltiplas zonas ou regiões.</p>
+</div>
+<div id="segurança" class="section level3 hasAnchor" number="11.7.5">
+<h3><span class="header-section-number">11.7.5</span> Segurança<a href="computação-em-nuvem-1.html#seguran%C3%A7a" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A segurança em nuvem envolve mecanismos técnicos e políticas de gestão. Entre os recursos comuns estão criptografia, controle de acesso, autenticação multifator, monitoramento, registros de auditoria, firewalls, redes privadas e ferramentas de detecção de ameaças.</p>
+<p>Um ponto importante é o modelo de responsabilidade compartilhada. O provedor é responsável pela segurança da infraestrutura da nuvem, enquanto o cliente é responsável pela segurança do que configura e executa na nuvem. Por exemplo, o provedor protege os data centers e a infraestrutura física, mas o cliente precisa configurar corretamente permissões de usuários, senhas, chaves de acesso e regras de rede.</p>
+</div>
+</div>
+<div id="benefícios-da-computação-em-nuvem" class="section level2 hasAnchor" number="11.8">
+<h2><span class="header-section-number">11.8</span> Benefícios da computação em nuvem<a href="computação-em-nuvem-1.html#benef%C3%ADcios-da-computa%C3%A7%C3%A3o-em-nuvem" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A computação em nuvem oferece benefícios técnicos, econômicos e estratégicos.</p>
+<div id="redução-de-investimento-inicial" class="section level3 hasAnchor" number="11.8.1">
+<h3><span class="header-section-number">11.8.1</span> Redução de investimento inicial<a href="computação-em-nuvem-1.html#redu%C3%A7%C3%A3o-de-investimento-inicial" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Em vez de comprar servidores e montar um data center próprio, a organização pode contratar recursos sob demanda. Isso reduz a necessidade de investimento inicial em hardware e infraestrutura física.</p>
+</div>
+<div id="escalabilidade" class="section level3 hasAnchor" number="11.8.2">
+<h3><span class="header-section-number">11.8.2</span> Escalabilidade<a href="computação-em-nuvem-1.html#escalabilidade" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A nuvem permite aumentar ou diminuir recursos conforme a demanda. Essa característica é importante para sistemas com variações sazonais, como lojas virtuais, plataformas educacionais, sistemas de inscrição e aplicações acessadas por muitos usuários em determinados períodos.</p>
+</div>
+<div id="agilidade" class="section level3 hasAnchor" number="11.8.3">
+<h3><span class="header-section-number">11.8.3</span> Agilidade<a href="computação-em-nuvem-1.html#agilidade" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A criação rápida de ambientes favorece inovação e experimentação. Equipes podem testar soluções, criar protótipos e lançar aplicações com menor tempo de espera.</p>
+</div>
+<div id="disponibilidade" class="section level3 hasAnchor" number="11.8.4">
+<h3><span class="header-section-number">11.8.4</span> Disponibilidade<a href="computação-em-nuvem-1.html#disponibilidade" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Os provedores de nuvem oferecem recursos para redundância, backup e recuperação de desastres. Isso contribui para manter serviços disponíveis mesmo diante de falhas.</p>
+</div>
+<div id="acesso-a-tecnologias-avançadas" class="section level3 hasAnchor" number="11.8.5">
+<h3><span class="header-section-number">11.8.5</span> Acesso a tecnologias avançadas<a href="computação-em-nuvem-1.html#acesso-a-tecnologias-avan%C3%A7adas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A nuvem facilita o acesso a serviços de inteligência artificial, aprendizado de máquina, análise de grandes volumes de dados, Internet das Coisas, bancos de dados escaláveis e ferramentas de automação.</p>
+</div>
+<div id="foco-no-negócio" class="section level3 hasAnchor" number="11.8.6">
+<h3><span class="header-section-number">11.8.6</span> Foco no negócio<a href="computação-em-nuvem-1.html#foco-no-neg%C3%B3cio" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Ao transferir parte da gestão da infraestrutura para o provedor, a equipe interna pode se concentrar em atividades mais próximas dos objetivos da organização, como desenvolvimento de soluções, melhoria de processos e análise de dados.</p>
+</div>
+</div>
+<div id="custos-e-desafios" class="section level2 hasAnchor" number="11.9">
+<h2><span class="header-section-number">11.9</span> Custos e desafios<a href="computação-em-nuvem-1.html#custos-e-desafios" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Apesar dos benefícios, a computação em nuvem não é uma solução automática para todos os problemas. A migração para a nuvem exige planejamento técnico, financeiro e organizacional.</p>
+<div id="controle-de-custos" class="section level3 hasAnchor" number="11.9.1">
+<h3><span class="header-section-number">11.9.1</span> Controle de custos<a href="computação-em-nuvem-1.html#controle-de-custos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>O modelo de pagamento por uso pode ser vantajoso, mas também pode gerar gastos inesperados se não houver monitoramento. Máquinas virtuais esquecidas, armazenamento excessivo, tráfego de rede elevado e serviços mal configurados podem aumentar a fatura.</p>
+<p>Entre os principais direcionadores de custo estão:</p>
 <ul>
-<li>Uso adequado da tecnologia<br />
-</li>
-<li>Integração de sistemas<br />
-</li>
-<li>Suporte à tomada de decisão</li>
+<li>processamento;</li>
+<li>armazenamento;</li>
+<li>tráfego de rede;</li>
+<li>serviços gerenciados;</li>
+<li>licenciamento de software;</li>
+<li>suporte técnico;</li>
+<li>cópias de segurança;</li>
+<li>uso de recursos em múltiplas regiões.</li>
 </ul>
-<p>A literatura converge ao indicar que:</p>
-<blockquote>
-<p>Mudanças bem-sucedidas dependem mais da gestão de pessoas do que da tecnologia em si <span class="citation">(<a href="#ref-vial2019">Vial 2019</a>; <a href="#ref-muniz2025">Muniz et al. 2025</a>)</span>.</p>
-</blockquote>
-<hr />
+</div>
+<div id="segurança-e-privacidade" class="section level3 hasAnchor" number="11.9.2">
+<h3><span class="header-section-number">11.9.2</span> Segurança e privacidade<a href="computação-em-nuvem-1.html#seguran%C3%A7a-e-privacidade" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Embora grandes provedores invistam fortemente em segurança, configurações incorretas feitas pelo cliente podem expor dados e sistemas. Por isso, é essencial aplicar boas práticas de controle de acesso, criptografia, monitoramento e auditoria.</p>
+</div>
+<div id="dependência-de-fornecedor" class="section level3 hasAnchor" number="11.9.3">
+<h3><span class="header-section-number">11.9.3</span> Dependência de fornecedor<a href="computação-em-nuvem-1.html#depend%C3%AAncia-de-fornecedor" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Ao utilizar serviços específicos de um provedor, a organização pode se tornar dependente de suas tecnologias, preços e políticas. Esse fenômeno é conhecido como <em>vendor lock-in</em>. Estratégias como uso de padrões abertos, contêineres e arquitetura multinuvem podem reduzir essa dependência, mas também aumentam a complexidade.</p>
+</div>
+<div id="complexidade-de-migração" class="section level3 hasAnchor" number="11.9.4">
+<h3><span class="header-section-number">11.9.4</span> Complexidade de migração<a href="computação-em-nuvem-1.html#complexidade-de-migra%C3%A7%C3%A3o" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Migrar sistemas existentes para a nuvem pode ser complexo. Sistemas antigos podem depender de configurações específicas, bancos de dados locais, integrações frágeis ou requisitos de desempenho difíceis de reproduzir. Por isso, nem toda aplicação deve ser migrada da mesma forma.</p>
+</div>
+<div id="conformidade-legal-e-regulatória" class="section level3 hasAnchor" number="11.9.5">
+<h3><span class="header-section-number">11.9.5</span> Conformidade legal e regulatória<a href="computação-em-nuvem-1.html#conformidade-legal-e-regulat%C3%B3ria" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Organizações que lidam com dados sensíveis precisam considerar legislações e normas aplicáveis, como regras de proteção de dados, exigências de auditoria e restrições sobre localização geográfica das informações.</p>
 </div>
 </div>
-<div id="por-que-as-mudanças-falham" class="section level2 hasAnchor" number="6.6">
-<h2><span class="header-section-number">6.6</span> Por que as mudanças falham?<a href="gestão-de-mudanças-em-processos-organizacionais.html#por-que-as-mudan%C3%A7as-falham" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Apesar da disponibilidade de modelos e ferramentas, muitas iniciativas de mudança não alcançam os resultados esperados.</p>
-<div id="principais-causas" class="section level3 hasAnchor" number="6.6.1">
-<h3><span class="header-section-number">6.6.1</span> Principais causas<a href="gestão-de-mudanças-em-processos-organizacionais.html#principais-causas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Com base nas leituras:</p>
+<div id="casos-de-uso" class="section level2 hasAnchor" number="11.10">
+<h2><span class="header-section-number">11.10</span> Casos de uso<a href="computação-em-nuvem-1.html#casos-de-uso" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A computação em nuvem pode ser aplicada em diferentes contextos.</p>
+<div id="desenvolvimento-de-aplicações" class="section level3 hasAnchor" number="11.10.1">
+<h3><span class="header-section-number">11.10.1</span> Desenvolvimento de aplicações<a href="computação-em-nuvem-1.html#desenvolvimento-de-aplica%C3%A7%C3%B5es" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Equipes de desenvolvimento podem usar a nuvem para criar, testar e publicar aplicações. Isso reduz a necessidade de configurar servidores locais e facilita a colaboração entre desenvolvedores.</p>
+</div>
+<div id="backup-e-recuperação-de-desastres" class="section level3 hasAnchor" number="11.10.2">
+<h3><span class="header-section-number">11.10.2</span> Backup e recuperação de desastres<a href="computação-em-nuvem-1.html#backup-e-recupera%C3%A7%C3%A3o-de-desastres" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Empresas podem armazenar cópias de segurança em nuvem e criar planos de recuperação em caso de falhas, ataques ou desastres físicos.</p>
+</div>
+<div id="análise-de-dados-1" class="section level3 hasAnchor" number="11.10.3">
+<h3><span class="header-section-number">11.10.3</span> Análise de dados<a href="computação-em-nuvem-1.html#an%C3%A1lise-de-dados-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A nuvem permite processar grandes volumes de dados usando ferramentas de Big Data, bancos de dados analíticos e serviços de aprendizado de máquina.</p>
+</div>
+<div id="educação" class="section level3 hasAnchor" number="11.10.4">
+<h3><span class="header-section-number">11.10.4</span> Educação<a href="computação-em-nuvem-1.html#educa%C3%A7%C3%A3o" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Instituições de ensino podem usar plataformas em nuvem para ambientes virtuais de aprendizagem, laboratórios remotos, armazenamento de materiais, videoconferências e sistemas acadêmicos.</p>
+</div>
+<div id="sistemas-corporativos" class="section level3 hasAnchor" number="11.10.5">
+<h3><span class="header-section-number">11.10.5</span> Sistemas corporativos<a href="computação-em-nuvem-1.html#sistemas-corporativos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Empresas podem usar sistemas SaaS para gestão financeira, relacionamento com clientes, recursos humanos, comunicação, colaboração e controle de projetos.</p>
+</div>
+</div>
+<div id="computação-em-nuvem-e-inteligência-artificial" class="section level2 hasAnchor" number="11.11">
+<h2><span class="header-section-number">11.11</span> Computação em nuvem e inteligência artificial<a href="computação-em-nuvem-1.html#computa%C3%A7%C3%A3o-em-nuvem-e-intelig%C3%AAncia-artificial" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A expansão da inteligência artificial aumentou a importância da computação em nuvem. Modelos de IA, especialmente modelos generativos, exigem grande capacidade de processamento, armazenamento e redes de alta velocidade.</p>
+<p>Provedores de nuvem passaram a oferecer serviços especializados para treinamento, implantação e uso de modelos de aprendizado de máquina. Esses serviços incluem plataformas de IA, GPUs, TPUs, APIs de linguagem natural, visão computacional, tradução automática e geração de conteúdo.</p>
+<p>A nuvem também permite que organizações menores acessem recursos que antes estavam disponíveis apenas para grandes empresas com infraestrutura própria. Entretanto, esses serviços podem ter custos elevados e exigem planejamento para uso eficiente.</p>
+</div>
+<div id="computação-de-borda" class="section level2 hasAnchor" number="11.12">
+<h2><span class="header-section-number">11.12</span> Computação de borda<a href="computação-em-nuvem-1.html#computa%C3%A7%C3%A3o-de-borda" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A computação de borda, ou <em>edge computing</em>, aproxima o processamento dos locais onde os dados são gerados. Em vez de enviar todos os dados para um data center distante, parte do processamento ocorre em dispositivos, sensores, gateways ou servidores próximos ao usuário.</p>
+<p>Esse modelo é importante para aplicações que exigem baixa latência, como veículos autônomos, Internet das Coisas, realidade aumentada, reconhecimento facial, monitoramento industrial e cidades inteligentes.</p>
+<p>A computação de borda não substitui a nuvem, mas complementa sua arquitetura. Dados podem ser processados inicialmente na borda e enviados posteriormente para a nuvem para armazenamento, análise histórica ou treinamento de modelos.</p>
+</div>
+<div id="considerações-para-adoção-da-nuvem" class="section level2 hasAnchor" number="11.13">
+<h2><span class="header-section-number">11.13</span> Considerações para adoção da nuvem<a href="computação-em-nuvem-1.html#considera%C3%A7%C3%B5es-para-ado%C3%A7%C3%A3o-da-nuvem" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Antes de adotar a computação em nuvem, uma organização deve avaliar seus objetivos, orçamento, sistemas existentes, requisitos de segurança, competências técnicas e estratégia de longo prazo.</p>
+<p>Algumas perguntas importantes são:</p>
 <ul>
-<li>Falta de comunicação (<span class="citation">(<a href="#ref-muniz2025">Muniz et al. 2025</a>)</span>)<br />
-</li>
-<li>Ausência de liderança (<span class="citation">(<a href="#ref-kotter2007leading">Kotter 2007</a>)</span>)<br />
-</li>
-<li>Resistência dos colaboradores (<span class="citation">(<a href="#ref-muniz2025">Muniz et al. 2025</a>)</span>)<br />
-</li>
-<li>Foco excessivo na tecnologia (<span class="citation">(<a href="#ref-vial2019">Vial 2019</a>)</span>)<br />
-</li>
-<li>Falta de planejamento estruturado (<span class="citation">(<a href="#ref-kotter2007leading">Kotter 2007</a>)</span>)</li>
+<li>Quais sistemas devem ser migrados?</li>
+<li>Quais dados podem ser armazenados na nuvem?</li>
+<li>Quais requisitos legais precisam ser atendidos?</li>
+<li>Qual modelo de serviço é mais adequado: IaaS, PaaS ou SaaS?</li>
+<li>A organização precisa de nuvem pública, privada, híbrida ou multinuvem?</li>
+<li>Como os custos serão monitorados?</li>
+<li>Quem será responsável pela segurança e governança?</li>
+<li>Existe risco de dependência excessiva de um fornecedor?</li>
+<li>A equipe possui conhecimento técnico suficiente?</li>
 </ul>
-<blockquote>
-<p>A negligência dos aspectos humanos é uma das principais causas de falha em processos de mudança <span class="citation">(<a href="#ref-vial2019">Vial 2019</a>)</span>.</p>
-</blockquote>
-<hr />
+<p>A decisão de usar nuvem deve estar alinhada à estratégia da organização. A nuvem pode reduzir custos, aumentar agilidade e ampliar capacidades tecnológicas, mas também pode gerar complexidade se for adotada sem planejamento.</p>
 </div>
-</div>
-<div id="o-papel-da-tecnologia" class="section level2 hasAnchor" number="6.7">
-<h2><span class="header-section-number">6.7</span> O Papel da Tecnologia<a href="gestão-de-mudanças-em-processos-organizacionais.html#o-papel-da-tecnologia" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A tecnologia atua como facilitadora da mudança organizacional, mas não como elemento central.</p>
-<p>Segundo <span class="citation">(<a href="#ref-vial2019">Vial 2019</a>)</span>:</p>
-<ul>
-<li>Tecnologias digitais permitem inovação<br />
-</li>
-<li>Apoiam decisões baseadas em dados<br />
-</li>
-<li>Melhoram a eficiência operacional</li>
-</ul>
-<p>No entanto:</p>
-<blockquote>
-<p>A transformação digital só ocorre quando a tecnologia é acompanhada por mudanças organizacionais e culturais.</p>
-</blockquote>
-<hr />
-</div>
-<div id="o-papel-do-profissional-executivo" class="section level2 hasAnchor" number="6.8">
-<h2><span class="header-section-number">6.8</span> O Papel do Profissional Executivo<a href="gestão-de-mudanças-em-processos-organizacionais.html#o-papel-do-profissional-executivo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>No contexto do secretariado executivo, o profissional desempenha um papel estratégico na gestão da mudança.</p>
-<div id="principais-funções" class="section level3 hasAnchor" number="6.8.1">
-<h3><span class="header-section-number">6.8.1</span> Principais funções<a href="gestão-de-mudanças-em-processos-organizacionais.html#principais-fun%C3%A7%C3%B5es" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ul>
-<li>Facilitar a comunicação organizacional<br />
-</li>
-<li>Organizar fluxos de informação<br />
-</li>
-<li>Apoiar a implementação de tecnologias<br />
-</li>
-<li>Mediar relações entre equipes e ղեկավար</li>
-</ul>
-<p>Esse profissional atua como elo entre:</p>
-<ul>
-<li>Estratégia<br />
-</li>
-<li>Operação<br />
-</li>
-<li>Tecnologia</li>
-</ul>
-<hr />
-</div>
-</div>
-<div id="síntese-integrada" class="section level2 hasAnchor" number="6.9">
-<h2><span class="header-section-number">6.9</span> Síntese Integrada<a href="gestão-de-mudanças-em-processos-organizacionais.html#s%C3%ADntese-integrada" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>A partir das três leituras, podemos compreender a gestão de mudanças como:</p>
-<ul>
-<li>Um processo estruturado (<span class="citation">(<a href="#ref-kotter2007leading">Kotter 2007</a>)</span>)<br />
-</li>
-<li>Um fenômeno organizacional amplo (<span class="citation">(<a href="#ref-vial2019">Vial 2019</a>)</span>)<br />
-</li>
-<li>Uma prática aplicada ao cotidiano (<span class="citation">(<a href="#ref-muniz2025">Muniz et al. 2025</a>)</span>)</li>
-</ul>
-<hr />
-</div>
-<div id="atividade-prática-avaliação-em-pares" class="section level2 hasAnchor" number="6.10">
-<h2><span class="header-section-number">6.10</span> Atividade Prática: Avaliação em Pares<a href="gestão-de-mudanças-em-processos-organizacionais.html#atividade-pr%C3%A1tica-avalia%C3%A7%C3%A3o-em-pares" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="objetivo-2" class="section level3 hasAnchor" number="6.10.1">
-<h3><span class="header-section-number">6.10.1</span> Objetivo<a href="gestão-de-mudanças-em-processos-organizacionais.html#objetivo-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Desenvolver a capacidade crítica e reflexiva por meio da análise de apresentações.</p>
-</div>
-<div id="descrição" class="section level3 hasAnchor" number="6.10.2">
-<h3><span class="header-section-number">6.10.2</span> Descrição<a href="gestão-de-mudanças-em-processos-organizacionais.html#descri%C3%A7%C3%A3o" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Cada dupla deverá avaliar a apresentação de uma outra dupla com base em critérios definidos:</p>
-<ul>
-<li>Clareza<br />
-</li>
-<li>Domínio do conteúdo<br />
-</li>
-<li>Uso das leituras<br />
-</li>
-<li>Organização<br />
-</li>
-<li>Originalidade</li>
-</ul>
-</div>
-<div id="etapas" class="section level3 hasAnchor" number="6.10.3">
-<h3><span class="header-section-number">6.10.3</span> Etapas<a href="gestão-de-mudanças-em-processos-organizacionais.html#etapas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ol style="list-style-type: decimal">
-<li>Distribuição das apresentações<br />
-</li>
-<li>Avaliação individual<br />
-</li>
-<li>Discussão em pares<br />
-</li>
-<li>Debate coletivo</li>
-</ol>
-<hr />
-</div>
-</div>
-<div id="reflexão-final" class="section level2 hasAnchor" number="6.11">
-<h2><span class="header-section-number">6.11</span> Reflexão Final<a href="gestão-de-mudanças-em-processos-organizacionais.html#reflex%C3%A3o-final" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>O que eu mudaria na minha apresentação após esta aula?</li>
-</ul>
-<hr />
-<!--
-## Referências
+<div id="síntese" class="section level2 hasAnchor" number="11.14">
+<h2><span class="header-section-number">11.14</span> Síntese<a href="computação-em-nuvem-1.html#s%C3%ADntese" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A computação em nuvem representa uma transformação na forma como recursos computacionais são consumidos e gerenciados. Seu principal valor está na possibilidade de acessar infraestrutura, plataformas e softwares pela Internet, com escalabilidade, flexibilidade e pagamento conforme o uso.</p>
+<p>Os modelos IaaS, PaaS e SaaS indicam diferentes níveis de controle e responsabilidade. Os modelos de implantação — pública, privada, híbrida e multinuvem — ajudam a definir como os recursos serão distribuídos e administrados.</p>
+<p>Para organizações modernas, a nuvem é uma base importante para inovação, análise de dados, inteligência artificial, colaboração e transformação digital. No entanto, seu uso deve ser planejado com atenção a custos, segurança, governança, conformidade e adequação ao problema a ser resolvido.</p>
 
-VIAL, G. Understanding Digital Transformation: A Review and a Research Agenda. Journal of Strategic Information Systems, 2019.
-
-KOTTER, J. P. Leading Change. Harvard Business Review Press.
-
-MUNIZ, A. Gestão de Mudanças Organizacionais: um guia prático para entender, debater e aplicar as mudanças nas empresas, 2025.
--->
-
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
+<div class="csl-entry">
+Armbrust, Michael et al. 2010. <span>“A View of Cloud Computing.”</span> <em>Communications of the ACM</em> 53 (4): 50–58.
+</div>
+<div class="csl-entry">
+Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. 2021. <span>“On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”</span> 610–23.
+</div>
+<div class="csl-entry">
+Bommasani, Rishi et al. 2021. <span>“On the Opportunities and Risks of Foundation Models.”</span> <em>arXiv Preprint arXiv:2108.07258</em>.
+</div>
+<div class="csl-entry">
+Brynjolfsson, Erik, and Andrew McAfee. 2014. <em>The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies</em>. W. W. Norton &amp; Company.
+</div>
+<div class="csl-entry">
+Davenport, Thomas H., and Rajeev Ronanki. 2018. <span>“Artificial Intelligence for the Real World.”</span> <em>Harvard Business Review</em> 96 (1): 108–16.
+</div>
+<div class="csl-entry">
+Dwivedi, Yogesh K. et al. 2023. <span>“So What If ChatGPT Wrote It? Multidisciplinary Perspectives on Opportunities, Challenges and Implications of Generative Conversational AI for Research, Practice and Policy.”</span> <em>International Journal of Information Management</em> 71: 102642.
+</div>
+<div class="csl-entry">
+Floridi, Luciano, and Josh Cowls. 2019. <span>“A Unified Framework of Five Principles for AI in Society.”</span> <em>Harvard Data Science Review</em> 1 (1).
+</div>
+<div class="csl-entry">
+Goodfellow, Ian, Yoshua Bengio, and Aaron Courville. 2016. <em>Deep Learning</em>. MIT Press.
+</div>
+<div class="csl-entry">
+Google Cloud. 2026. <span>“O Que é Computação Na Nuvem?”</span> <a href="https://cloud.google.com/learn/what-is-cloud-computing?hl=pt-BR">https://cloud.google.com/learn/what-is-cloud-computing?hl=pt-BR</a>.
+</div>
+<div class="csl-entry">
+IBM. 2026. <span>“O Que é Computação Em Nuvem (Cloud Computing)?”</span> <a href="https://www.ibm.com/br-pt/think/topics/cloud-computing">https://www.ibm.com/br-pt/think/topics/cloud-computing</a>.
+</div>
+<div class="csl-entry">
+Kaplan, Andreas, and Michael Haenlein. 2019. <span>“Siri, Siri, in My Hand: Who’s the Fairest in the Land? On the Interpretations, Illustrations, and Implications of Artificial Intelligence.”</span> <em>Business Horizons</em> 62 (1): 15–25.
+</div>
+<div class="csl-entry">
+Kotter, John P. 2007. <span>“Leading Change: Why Transformation Efforts Fail.”</span> In <em>Museum Management and Marketing</em>, 20–29. Routledge.
+</div>
+<div class="csl-entry">
+Microsoft. 2026a. <span>“Introduction to Data Analytics.”</span> <a href="https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/1-introduction">https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/1-introduction</a>.
+</div>
+<div class="csl-entry">
+———. 2026b. <span>“Microsoft Excel Documentation.”</span> <a href="https://support.microsoft.com/excel">https://support.microsoft.com/excel</a>.
+</div>
+<div class="csl-entry">
+———. 2026c. <span>“Tasks in Data Analytics.”</span> <a href="https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/4-tasks">https://learn.microsoft.com/pt-br/training/modules/data-analytics-microsoft/4-tasks</a>.
+</div>
+<div class="csl-entry">
+Mitchell, Tom M. 1997. <em>Machine Learning</em>. McGraw-Hill.
+</div>
+<div class="csl-entry">
+Muniz, A., A. Torrejon, A. C. de Oliveira Costa, A. C. Cotrin, A. Costa, A. Olivio, A. Aranha, et al. 2025. <em>Gest<span>ã</span>o de Mudan<span>ç</span>as Organizacionais: Um Guia Pr<span>á</span>tico Para Entender, Debater e Aplicar as Mudan<span>ç</span>as Nas Empresas</em>. Brasport. <a href="https://books.google.com.br/books?id=xI2TEQAAQBAJ">https://books.google.com.br/books?id=xI2TEQAAQBAJ</a>.
+</div>
+<div class="csl-entry">
+Russell, Stuart, and Peter Norvig. 2021. <em>Artificial Intelligence: A Modern Approach</em>. 4th ed. Pearson.
+</div>
+<div class="csl-entry">
+Verhoef, Peter C., Thijs Broekhuizen, Yakov Bart, Abhi Bhattacharya, John Qi Dong, Nicolai Fabian, and Michael Haenlein. 2021. <span>“Digital Transformation: A Multidisciplinary Reflection and Research Agenda.”</span> <em>Journal of Business Research</em> 122: 889–901.
+</div>
+<div class="csl-entry">
+Vial, Gregory. 2019. <span>“Understanding Digital Transformation: A Review and a Research Agenda.”</span> <em>The Journal of Strategic Information Systems</em> 28 (June): 118–44. <a href="https://doi.org/10.1016/j.jsis.2019.01.003">https://doi.org/10.1016/j.jsis.2019.01.003</a>.
+</div>
+<div class="csl-entry">
+W3Schools. 2026a. <span>“Excel Data Analysis.”</span> <a href="https://www.w3schools.com/excel/excel_data_analysis.php">https://www.w3schools.com/excel/excel_data_analysis.php</a>.
+</div>
+<div class="csl-entry">
+———. 2026b. <span>“Excel Tutorial.”</span> <a href="https://www.w3schools.com/excel/index.php">https://www.w3schools.com/excel/index.php</a>.
+</div>
+<div class="csl-entry">
+World Economic Forum. 2025. <span>“The Future of Jobs Report 2025.”</span> Geneva, Switzerland: World Economic Forum. <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">https://www.weforum.org/publications/the-future-of-jobs-report-2025/</a>.
+</div>
+</div>
 </div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
-<div id="ref-kotter2007leading" class="csl-entry">
-Kotter, John P. 2007. <span>“Leading Change: Why Transformation Efforts Fail.”</span> In <em>Museum Management and Marketing</em>, 20–29. Routledge.
+<div id="ref-google_cloud_computing" class="csl-entry">
+Google Cloud. 2026. <span>“O Que é Computação Na Nuvem?”</span> <a href="https://cloud.google.com/learn/what-is-cloud-computing?hl=pt-BR">https://cloud.google.com/learn/what-is-cloud-computing?hl=pt-BR</a>.
 </div>
-<div id="ref-muniz2025" class="csl-entry">
-Muniz, A., A. Torrejon, A. C. de Oliveira Costa, A. C. Cotrin, A. Costa, A. Olivio, A. Aranha, et al. 2025. <em>Gest<span>ã</span>o de Mudan<span>ç</span>as Organizacionais: Um Guia Pr<span>á</span>tico Para Entender, Debater e Aplicar as Mudan<span>ç</span>as Nas Empresas</em>. Brasport. <a href="https://books.google.com.br/books?id=xI2TEQAAQBAJ">https://books.google.com.br/books?id=xI2TEQAAQBAJ</a>.
-</div>
-<div id="ref-vial2019" class="csl-entry">
-Vial, Gregory. 2019. <span>“Understanding Digital Transformation: A Review and a Research Agenda.”</span> <em>The Journal of Strategic Information Systems</em> 28 (June): 118–44. <a href="https://doi.org/10.1016/j.jsis.2019.01.003">https://doi.org/10.1016/j.jsis.2019.01.003</a>.
+<div id="ref-ibm_cloud_computing" class="csl-entry">
+IBM. 2026. <span>“O Que é Computação Em Nuvem (Cloud Computing)?”</span> <a href="https://www.ibm.com/br-pt/think/topics/cloud-computing">https://www.ibm.com/br-pt/think/topics/cloud-computing</a>.
 </div>
 </div>
             </section>
@@ -987,8 +1095,8 @@ Vial, Gregory. 2019. <span>“Understanding Digital Transformation: A Review and
           </div>
         </div>
       </div>
-<a href="atividade.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="planilhas---parte-2.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="projeto-final.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -1019,7 +1127,7 @@ gitbook.start({
     "size": 2
   },
   "edit": {
-    "link": "https://github.com/costasilvati/TecnologiaEInovacao10-gestao-de-mudancas.Rmd",
+    "link": "https://github.com/costasilvati/TecnologiaEInovacao14-cloud-computing.Rmd",
     "text": "Edit"
   },
   "history": {
